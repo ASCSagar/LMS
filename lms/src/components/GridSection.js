@@ -1,13 +1,16 @@
-import React from 'react';
-import grid1 from '../img/grid/grid_1.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import grid1 from "../img/grid/grid_1.png";
+import { Link } from "react-router-dom";
 
 const GridSection = () => {
   return (
     <div className="gridarea gridarea__2">
       <div className="container">
         <div className="row grid__row">
-          <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="fade-up">
+          <div
+            className="col-xl-5 col-lg-5 col-md-12 col-sm-12"
+            data-aos="fade-up"
+          >
             <div className="section__title__2">
               <div className="section__title__button">
                 <div className="default__small__button">Course List</div>
@@ -17,9 +20,14 @@ const GridSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12" data-aos="fade-up">
+          <div
+            className="col-xl-7 col-lg-7 col-md-12 col-sm-12"
+            data-aos="fade-up"
+          >
             <div className="gridfilter_nav grid__filter__2 gridFilter">
-              <button className="active" data-filter="*">See All</button>
+              <button className="active" data-filter="*">
+                See All
+              </button>
               <button data-filter=".filter1" className="">
                 Data science
               </button>
@@ -35,7 +43,6 @@ const GridSection = () => {
             </div>
           </div>
         </div>
-
         <div className="row grid" data-aos="fade-up">
           {/* You can map through your courses data and generate grid items dynamically */}
           {/* Example for a single grid item, you can duplicate this structure for each course */}
@@ -74,7 +81,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -132,7 +142,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -190,7 +203,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -248,7 +264,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -306,7 +325,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -364,7 +386,10 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__price">
                   $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
+                  <span>
+                    {" "}
+                    <del className="del__2">Free</del>
+                  </span>
                 </div>
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
@@ -387,7 +412,6 @@ const GridSection = () => {
               </div>
             </div>
           </div>
-          
           {/* End of a single grid item */}
         </div>
       </div>

@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import price1 from '../img/icon/price__1.png';
-import price2 from '../img/icon/price__2.png';
-import price3 from '../img/icon/price__3.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import price1 from "../img/icon/price__1.png";
+import price2 from "../img/icon/price__2.png";
+import price3 from "../img/icon/price__3.png";
 
 const PricingArea = () => {
   return (
@@ -23,7 +23,10 @@ const PricingArea = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div
+            className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            data-aos="fade-up"
+          >
             <div className="pricingarea__content__wraper">
               <div className="pricingarea__heading">
                 <div className="pricingarea__plan__type">
@@ -48,10 +51,12 @@ const PricingArea = () => {
                     <i className="icofont-check"></i> Learning Scope
                   </li>
                   <li>
-                    <i className="icofont-close close__button"></i> Team collaboration
+                    <i className="icofont-close close__button"></i> Team
+                    collaboration
                   </li>
                   <li>
-                    <i className="icofont-check dark__color__2"></i> Export HTML code
+                    <i className="icofont-check dark__color__2"></i> Export HTML
+                    code
                   </li>
                   <li>
                     <i className="icofont-check"></i> Upload Your Logo
@@ -68,8 +73,10 @@ const PricingArea = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div
+            className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            data-aos="fade-up"
+          >
             <div className="pricingarea__content__wraper">
               <div className="pricingarea__heading">
                 <div className="pricingarea__plan__type">
@@ -94,10 +101,12 @@ const PricingArea = () => {
                     <i className="icofont-check"></i> Learning Scope
                   </li>
                   <li>
-                    <i className="icofont-close close__button"></i> Team collaboration
+                    <i className="icofont-close close__button"></i> Team
+                    collaboration
                   </li>
                   <li>
-                    <i className="icofont-check dark__color__2"></i> Export HTML code
+                    <i className="icofont-check dark__color__2"></i> Export HTML
+                    code
                   </li>
                   <li>
                     <i className="icofont-check"></i> Upload Your Logo
@@ -114,8 +123,10 @@ const PricingArea = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div
+            className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"
+            data-aos="fade-up"
+          >
             <div className="pricingarea__content__wraper">
               <div className="pricingarea__heading">
                 <div className="pricingarea__plan__type">
@@ -140,10 +151,12 @@ const PricingArea = () => {
                     <i className="icofont-check"></i> Learning Scope
                   </li>
                   <li>
-                    <i className="icofont-close close__button"></i> Team collaboration
+                    <i className="icofont-close close__button"></i> Team
+                    collaboration
                   </li>
                   <li>
-                    <i className="icofont-check dark__color__2"></i> Export HTML code
+                    <i className="icofont-check dark__color__2"></i> Export HTML
+                    code
                   </li>
                   <li>
                     <i className="icofont-check"></i> Upload Your Logo

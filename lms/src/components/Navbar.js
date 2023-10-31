@@ -32,19 +32,19 @@ const Navbar = () => {
                 <div class="headerarea__main__menu">
                   <nav>
                     <ul>
-                        <DemoIndex/>
-                        <PageIndex/>
-                        <CourseIndex/>
-                        <DashboardIndex/>
-                        <EcommerceIndex/>
+                      <DemoIndex />
+                      <PageIndex />
+                      <CourseIndex />
+                      <DashboardIndex />
+                      <EcommerceIndex />
                     </ul>
                   </nav>
                 </div>
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="headerarea__right">
-                  <CartIndex/>
-                  <LoginIndex/>
+                  <CartIndex />
+                  <LoginIndex />
                   <div class="headerarea__button">
                     <Link to="#">Get Start</Link>
                   </div>
@@ -52,7 +52,6 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-
           <div class="container-fluid mob_menu_wrapper">
             <div class="row align-items-center">
               <div class="col-6">
@@ -90,7 +89,6 @@ const Navbar = () => {
                               </Link>
                             </div>
                           </div>
-
                           <div class="single__header__right__dropdown">
                             <div class="header__right__dropdown__img">
                               <Link to="#">
@@ -109,7 +107,6 @@ const Navbar = () => {
                               </Link>
                             </div>
                           </div>
-
                           <div class="single__header__right__dropdown">
                             <div class="header__right__dropdown__img">
                               <Link to="#">
@@ -129,7 +126,6 @@ const Navbar = () => {
                             </div>
                           </div>
                         </div>
-
                         <p class="dropdown__price">
                           Total: <span>$1,100.00</span>
                         </p>
@@ -144,7 +140,6 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-
                   <div class="mobile-off-canvas">
                     <Link class="mobile-aside-button" to="#">
                       <i class="icofont-navigation-menu"></i>

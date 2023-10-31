@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import blog1 from '../img/blog/blog_1.png';
-import blog2 from '../img/blog/blog_2.png';
-import blog3 from '../img/blog/blog_3.png';
-import blog4 from '../img/blog/blog_4.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import blog1 from "../img/blog/blog_1.png";
+import blog2 from "../img/blog/blog_2.png";
+import blog3 from "../img/blog/blog_3.png";
+import blog4 from "../img/blog/blog_4.png";
 
 const BlogSection = () => {
   return (
@@ -32,9 +32,23 @@ const BlogSection = () => {
                 </div>
               </div>
               <div className="blogarea__text__wraper">
-                <h3><Link to="#">It is a long established fact that a reader will be Standard Part</Link></h3>
+                <h3>
+                  <Link to="#">
+                    It is a long established fact that a reader will be Standard
+                    Part
+                  </Link>
+                </h3>
                 <div className="blogarea__para">
-                  <p>A wonderful serenity has taken possession of my entire soul, like these sweet morning spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere. A wonderful serenity has taken possession of my entire soul, like these sweet mornings spring which I enjoy …</p>
+                  <p>
+                    A wonderful serenity has taken possession of my entire soul,
+                    like these sweet morning spring which I enjoy with my whole
+                    heart. I am alone, and feel the charm of existence in this
+                    spot, which was created for the bliss of souls like mine. I
+                    am so happy, my dear friend, so absorbed in the exquisite
+                    sense of mere. A wonderful serenity has taken possession of
+                    my entire soul, like these sweet mornings spring which I
+                    enjoy …
+                  </p>
                 </div>
                 <div className="blogarea__icon">
                   <div className="blogarea__person">
@@ -48,16 +62,24 @@ const BlogSection = () => {
                   <div className="blogarea__list">
                     <ul>
                       <li>
-                        <Link to="#"><i className="icofont-facebook"></i></Link>
+                        <Link to="#">
+                          <i className="icofont-facebook"></i>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="#"><i className="icofont-youtube-play"></i></Link>
+                        <Link to="#">
+                          <i className="icofont-youtube-play"></i>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="#"><i className="icofont-instagram"></i></Link>
+                        <Link to="#">
+                          <i className="icofont-instagram"></i>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="#"><i className="icofont-twitter"></i></Link>
+                        <Link to="#">
+                          <i className="icofont-twitter"></i>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -75,10 +97,14 @@ const BlogSection = () => {
                 </div>
               </div>
               <div className="blogarea__text__wraper blogarea__text__wraper__2">
-                <h3><Link to="#">It is a long established fact that a reader will be Standard Part</Link></h3>
+                <h3>
+                  <Link to="#">
+                    It is a long established fact that a reader will be Standard
+                    Part
+                  </Link>
+                </h3>
               </div>
             </div>
-
             <div className="blogarea__content__wraper">
               <div className="blogarea__img">
                 <img src={blog4} alt="blog" />
@@ -88,7 +114,12 @@ const BlogSection = () => {
                 </div>
               </div>
               <div className="blogarea__text__wraper blogarea__text__wraper__2">
-                <h3><Link to="#">It is a long established fact that a reader will be Standard Part</Link></h3>
+                <h3>
+                  <Link to="#">
+                    It is a long established fact that a reader will be Standard
+                    Part
+                  </Link>
+                </h3>
               </div>
             </div>
           </div>
