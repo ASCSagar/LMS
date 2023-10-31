@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import cart1 from '../../img/grid/cart1.jpg';
+import cart2 from '../../img/grid/cart2.jpg';
+import cart3 from '../../img/grid/cart3.jpg';
 
 const CartIndex = () => {
   return (
@@ -13,7 +16,7 @@ const CartIndex = () => {
                         <div class="single__header__right__dropdown">
                           <div class="header__right__dropdown__img">
                             <Link to="#">
-                              <img src="img/grid/cart1.jpg" alt="photoo" />
+                              <img src={cart1} alt="photoo" />
                             </Link>
                           </div>
                           <div class="header__right__dropdown__content">
@@ -24,7 +27,7 @@ const CartIndex = () => {
                           </div>
                           <div class="header__right__dropdown__close">
                             <Link to="#">
-                              <i class="icofont-close-line"></i>
+                              <i class="icofont-close-line" ></i>
                             </Link>
                           </div>
                         </div>
@@ -32,7 +35,7 @@ const CartIndex = () => {
                         <div class="single__header__right__dropdown">
                           <div class="header__right__dropdown__img">
                             <Link to="#">
-                              <img src="img/grid/cart2.jpg" alt="photoo" />
+                              <img src={cart2} alt="photoo" />
                             </Link>
                           </div>
                           <div class="header__right__dropdown__content">
@@ -51,7 +54,7 @@ const CartIndex = () => {
                         <div class="single__header__right__dropdown">
                           <div class="header__right__dropdown__img">
                             <Link to="#">
-                              <img src="img/grid/cart3.jpg" alt="photoo" />
+                              <img src={cart3} alt="photoo" />
                             </Link>
                           </div>
                           <div class="header__right__dropdown__content">

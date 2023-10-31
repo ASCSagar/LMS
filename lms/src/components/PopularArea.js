@@ -48,13 +48,13 @@ const PopulerArea = () => {
                     <img src="img/icon/chat-app.png" alt="" />
                   </div>
                   <div className="service__content service__content__2">
-                    <h3>
-                      <Link to="course-details.html">AI Automation</Link>
+                    <h3 className="logo_title">
+                      <Link to="course-details.html" >AI Automation</Link>
                     </h3>
                     <p>Construction is a general term the art and science to form</p>
                   </div>
                   <div className="service__button">
-                    <Link to="#">
+                    <Link to="#" >
                       View Subject
                       <i className="icofont-long-arrow-right"></i>
                     </Link>
@@ -81,7 +81,7 @@ const PopulerArea = () => {
                     <img src="img/icon/machine-learning.png" alt="" />
                   </div>
                   <div className="service__content service__content__2">
-                    <h3>
+                    <h3 className="logo_title">
                       <Link to="course-details.html">Machine Learning</Link>
                     </h3>
                     <p>Construction is a general term the art and science to form</p>
@@ -115,7 +115,7 @@ const PopulerArea = () => {
                     <img src="img/icon/virtual-reality.png" alt="" />
                   </div>
                   <div className="service__content service__content__2">
-                    <h3>
+                    <h3 className="logo_title">
                       <Link to="course-details.html">Virtual Reality</Link>
                     </h3>
                     <p>Construction is a general term the art and science to form</p>
@@ -148,7 +148,7 @@ const PopulerArea = () => {
                     <img src="img/icon/artificial-intelligence.png" alt="" />
                   </div>
                   <div className="service__content service__content__2">
-                    <h3>
+                    <h3 className="logo_title">
                       <Link to="course-details.html">AI Cloud Services</Link>
                     </h3>
                     <p>Construction is a general term the art and science to form</p>

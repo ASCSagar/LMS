@@ -66,65 +66,7 @@ const GridSection = () => {
                   </ul>
                 </div>
                 <div className="gridarea__heading">
-                  <h3>
-                    <Link to="course-details.html">
-                      Foundation course to understand about software
-                    </Link>
-                  </h3>
-                </div>
-                <div className="gridarea__price">
-                  $32.00 <del>/$67.00</del>
-                  <span> <del className="del__2">Free</del></span>
-                </div>
-                <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
-                    <div className="gridarea__small__img">
-                      <img src="img/grid/grid_small_1.jpg" alt="grid" />
-                      <div className="gridarea__small__content">
-                        <h6>Micle Jhon</h6>
-                      </div>
-                    </div>
-                  </Link>
-                  <div className="gridarea__star">
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <i className="icofont-star"></i>
-                    <span>(44)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
-            <div className="gridarea__wraper">
-              <div className="gridarea__img">
-                <Link to="course-details.html">
-                  <img src={grid1} alt="grid" />
-                </Link>
-                <div className="gridarea__small__button">
-                  <div className="grid__badge">Data & Tech</div>
-                </div>
-                <div className="gridarea__small__icon">
-                  <Link to="#">
-                    <i className="icofont-heart-alt"></i>
-                  </Link>
-                </div>
-              </div>
-              <div className="gridarea__content">
-                <div className="gridarea__list">
-                  <ul>
-                    <li>
-                      <i className="icofont-book-alt"></i> 23 Lesson
-                    </li>
-                    <li>
-                      <i className="icofont-clock-time"></i> 1 hr 30 min
-                    </li>
-                  </ul>
-                </div>
-                <div className="gridarea__heading">
-                  <h3>
+                  <h3 className="gridarea_link">
                     <Link to="course-details.html">
                       Foundation course to understand about software
                     </Link>
@@ -182,7 +124,7 @@ const GridSection = () => {
                   </ul>
                 </div>
                 <div className="gridarea__heading">
-                  <h3>
+                  <h3 className="gridarea_link">
                     <Link to="course-details.html">
                       Foundation course to understand about software
                     </Link>
@@ -240,7 +182,7 @@ const GridSection = () => {
                   </ul>
                 </div>
                 <div className="gridarea__heading">
-                  <h3>
+                  <h3 className="gridarea_link">
                     <Link to="course-details.html">
                       Foundation course to understand about software
                     </Link>
@@ -298,7 +240,7 @@ const GridSection = () => {
                   </ul>
                 </div>
                 <div className="gridarea__heading">
-                  <h3>
+                  <h3 className="gridarea_link">
                     <Link to="course-details.html">
                       Foundation course to understand about software
                     </Link>
@@ -311,7 +253,7 @@ const GridSection = () => {
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
                     <div className="gridarea__small__img">
-                      <img src="img/grid/grid_small_1.jpg" alt="grid" />
+                      <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
                         <h6>Micle Jhon</h6>
                       </div>
@@ -356,7 +298,7 @@ const GridSection = () => {
                   </ul>
                 </div>
                 <div className="gridarea__heading">
-                  <h3>
+                  <h3 className="gridarea_link">
                     <Link to="course-details.html">
                       Foundation course to understand about software
                     </Link>
@@ -369,9 +311,67 @@ const GridSection = () => {
                 <div className="gridarea__bottom">
                   <Link to="instructor-details.html">
                     <div className="gridarea__small__img">
-                      <img src="img/grid/grid_small_1.jpg" alt="grid" />
+                      <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
                         <h6>Micle Jhon</h6>
+                      </div>
+                    </div>
+                  </Link>
+                  <div className="gridarea__star">
+                    <i className="icofont-star"></i>
+                    <i className="icofont-star"></i>
+                    <i className="icofont-star"></i>
+                    <i className="icofont-star"></i>
+                    <i className="icofont-star"></i>
+                    <span>(44)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
+            <div className="gridarea__wraper">
+              <div className="gridarea__img">
+                <Link to="course-details.html">
+                  <img src={grid1} alt="grid" />
+                </Link>
+                <div className="gridarea__small__button">
+                  <div className="grid__badge">Data & Tech</div>
+                </div>
+                <div className="gridarea__small__icon">
+                  <Link to="#">
+                    <i className="icofont-heart-alt"></i>
+                  </Link>
+                </div>
+              </div>
+              <div className="gridarea__content">
+                <div className="gridarea__list">
+                  <ul>
+                    <li>
+                      <i className="icofont-book-alt"></i> 23 Lesson
+                    </li>
+                    <li>
+                      <i className="icofont-clock-time"></i> 1 hr 30 min
+                    </li>
+                  </ul>
+                </div>
+                <div className="gridarea__heading">
+                  <h3 className="gridarea_link">
+                    <Link to="course-details.html">
+                      Foundation course to understand about software
+                    </Link>
+                  </h3>
+                </div>
+                <div className="gridarea__price">
+                  $32.00 <del>/$67.00</del>
+                  <span> <del className="del__2">Free</del></span>
+                </div>
+                <div className="gridarea__bottom">
+                  <Link to="instructor-details.html">
+                    <div className="gridarea__small__img">
+                      <img src={grid1} alt="grid" />
+                      <div className="gridarea__small__content">
+                        <h6 className="gridarea_author">Micle Jhon</h6>
                       </div>
                     </div>
                   </Link>

@@ -465,6 +465,10 @@ li {
   text-align: center;
   margin-bottom: 20px;
 }
+.default__small__button a {
+  text-decoration: none;
+}
+
 .default__small__button.default__small__button__2 {
   background: rgba(255, 255, 255, 0.07);
   border-radius: 14.5px;
@@ -975,6 +979,7 @@ Header Area
   font-weight: 600;
   position: relative;
   color: var(--blackColor);
+  text-decoration: none;
 }
 @media (min-width: 1366px) and (max-width: 1499px) {
   .headerarea__main__menu nav ul > li a {
@@ -1140,6 +1145,7 @@ Header Area
   font-size: 14px;
   line-height: 20px;
   color: var(--darkblack);
+  text-decoration: none;
 }
 .headerarea__right .header__cart .header__right__dropdown__wrapper .header__right__dropdown__inner .single__header__right__dropdown .header__right__dropdown__content a:hover {
   color: var(--secondaryColor);
@@ -1168,6 +1174,7 @@ Header Area
   text-align: center;
   width: 100%;
   padding: 10px 0px;
+  text-decoration: none;
 }
 .headerarea__right .header__cart .header__right__dropdown__wrapper .header__right__dropdown__button a.white__color {
   border: 1px solid var(--secondaryColor);
@@ -1222,6 +1229,7 @@ Header Area
   border-radius: var(--borderRadius);
   font-size: 15px;
   border: 1px solid var(--primaryColor);
+  text-decoration: none;
 }
 @media (min-width: 1366px) and (max-width: 1499px) {
   .headerarea__button a {
@@ -1374,6 +1382,7 @@ Header Area
   font-size: 15px;
   color: var(--whiteColor);
   margin-right: 20px;
+  text-decoration: none;
 }
 .topbar__right .topbar__list ul li a:hover {
   color: var(--primaryColor);
@@ -2602,6 +2611,10 @@ Hero Banner Area
   border: 1px solid var(--secondaryColor);
   color: var(--whiteColor);
   margin-left: 28px;
+  text-decoration: none;
+}
+.hreobannerarea__button__2 .default__button {
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .hreobannerarea__button__2 .hreobannerarea__button__3 {
@@ -4411,6 +4424,12 @@ Popular Area
 .single__service.ss_margin {
   margin-top: 50px;
 }
+.service__button a {
+  text-decoration: none;
+}
+.logo_title a {
+  text-decoration: none;
+}
 @media (max-width: 767px) {
   .single__service.ss_margin {
     margin-top: 0;
@@ -4580,6 +4599,7 @@ Popular Area
   background: var(--secondaryColor);
   color: var(--whiteColor);
   border: 1px solid var(--secondaryColor);
+  text-decoration: none;
 }
 .populerarea__content__wraper__2 .populerarea__button__2 .default__button:hover {
   border: 1px solid var(--secondaryColor);
@@ -4670,6 +4690,7 @@ Popular Area
   font-size: 12px;
 }
 
+
 /*------------------------------
 Grid Area
 -------------------------------*/
@@ -4710,11 +4731,15 @@ Grid Area
   font-size: 18px;
   line-height: 25px;
 }
+.gridarea_link a {
+  text-decoration: none;
+}
 .gridarea__wraper.gridarea__wraper__2 .gridarea__content .gridarea__bottom .gridarea__small__img .gridarea__small__content h6 {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
 }
+
 .gridarea__wraper:hover .gridarea__img img {
   transform: scale(1.05);
 }
@@ -5306,7 +5331,9 @@ Grid Area
 .zoom__meetings__details .course__details__sidebar--2 {
   top: 0;
 }
-
+.gridarea_author{
+  text-decoration: none;
+}
 /*------------------------------
 Event
 -------------------------------*/

@@ -11,11 +11,13 @@ import PricingArea from './components/PricingArea';
 import AboutSection from './components/AboutSection';
 import BlogSection from './components/BlogSection';
 import Footer from './components/Footer';
+import DarkNight from './components/DarkNight';
 
 function App() {
   return (
     <>
       <div className="App">
+        <DarkNight/>
         <Topbar /> 
         <Navbar />
         <HeroBanner />
