@@ -22,7 +22,7 @@ const AboutArea = () => {
                 <div className="aboutarea__counter">
                   <span className="counter">25</span> +
                 </div>
-                <p>YEARS EXPERIENCE JUST ACHIVED</p>
+                <p>YEARS EXPERIENCE JUST ACHIEVED</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import megahome1 from '../../img/mega/home-1.png';
+import dmegahome1 from '../../img/mega/home-1-dark.png';
+import megahome2 from '../../img/mega/home-2.png';
+import dmegahome2 from '../../img/mega/home-2-dark.png';
+import megahome3 from '../../img/mega/home-3.png';
+import dmegahome3 from '../../img/mega/home-3-dark.png';
+import megahome4 from '../../img/mega/home-4.png';
+import dmegahome4 from '../../img/mega/home-4-dark.png';
+import megahome5 from '../../img/mega/home-5.png';
+import dmegahome5 from '../../img/mega/home-5-dark.png';
+import megahome6 from '../../img/mega/home-6.png';
+import dmegahome6 from '../../img/mega/home-6-dark.png';
+import megahome7 from '../../img/mega/home-7.png';
+import dmegahome7 from '../../img/mega/home-7-dark.png';
+import megahome8 from '../../img/mega/home-8.png';
+import dmegahome8 from '../../img/mega/home-8-dark.png';
+import megahome9 from '../../img/mega/home-9.png';
+import dmegahome9 from '../../img/mega/home-9-dark.png';
+import megahome10 from '../../img/mega/home-10.png';
+import dmegahome10 from '../../img/mega/home-10-dark.png';
+import megahome11 from '../../img/mega/home-11.png';
+import dmegahome11 from '../../img/mega/home-11-dark.png';
+import coming1 from '../../img/mega/coming.png';
+import coming2 from '../../img/mega/coming.png';
+import coming3 from '../../img/mega/coming.png';
+import coming4 from '../../img/mega/coming.png';
+import dcoming1 from '../../img/mega/coming-dark.png';
+import dcoming2 from '../../img/mega/coming-dark.png';
+import dcoming3 from '../../img/mega/coming-dark.png';
+import dcoming4 from '../../img/mega/coming-dark.png';
+
+
 
 const DemoIndex = () => {
   return (
@@ -51,7 +83,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="index.html">
                                       <img
-                                        src="img/mega/home-1.png"
+                                        src={megahome1}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -65,7 +97,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-2.html">
                                       <img
-                                        src="img/mega/home-2.png"
+                                        src={megahome2}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -79,7 +111,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-3.html">
                                       <img
-                                        src="img/mega/home-3.png"
+                                        src={megahome3}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -93,7 +125,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-4.html">
                                       <img
-                                        src="img/mega/home-4.png"
+                                        src={megahome4}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -107,7 +139,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-5.html">
                                       <img
-                                        src="img/mega/home-5.png"
+                                        src={megahome5}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -121,7 +153,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-6.html">
                                       <img
-                                        src="img/mega/home-6.png"
+                                        src={megahome6}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -138,7 +170,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-7.html">
                                       <img
-                                        src="img/mega/home-7.png"
+                                        src={megahome7}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -155,7 +187,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-8.html">
                                       <img
-                                        src="img/mega/home-8.png"
+                                        src={megahome8}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -172,7 +204,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-9.html">
                                       <img
-                                        src="img/mega/home-9.png"
+                                        src={megahome9}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -189,7 +221,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-10.html">
                                       <img
-                                        src="img/mega/home-10.png"
+                                        src={megahome10}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -206,7 +238,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-11.html">
                                       <img
-                                        src="img/mega/home-11.png"
+                                        src={megahome11}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -223,7 +255,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming.png"
+                                        src={coming1}
                                         alt="Mega Menu 1"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -237,7 +269,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming.png"
+                                        src={coming2}
                                         alt="Mega Menu 2"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -251,7 +283,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming.png"
+                                        src={coming3}
                                         alt="Mega Menu 3"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -265,7 +297,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming.png"
+                                        src={coming4}
                                         alt="Mega Menu 4"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -288,7 +320,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="index-dark.html">
                                       <img
-                                        src="img/mega/home-1-dark.png"
+                                        src={dmegahome1}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -302,7 +334,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-2-dark.html">
                                       <img
-                                        src="img/mega/home-2-dark.png"
+                                        src={dmegahome2}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -316,7 +348,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-3-dark.html">
                                       <img
-                                        src="img/mega/home-3-dark.png"
+                                        src={dmegahome3}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -330,7 +362,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-4-dark.html">
                                       <img
-                                        src="img/mega/home-4-dark.png"
+                                        src={dmegahome4}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -344,7 +376,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-5-dark.html">
                                       <img
-                                        src="img/mega/home-5-dark.png"
+                                        src={dmegahome5}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -358,7 +390,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-6-dark.html">
                                       <img
-                                        src="img/mega/home-6-dark.png"
+                                        src={dmegahome6}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -375,7 +407,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-7-dark.html">
                                       <img
-                                        src="img/mega/home-7-dark.png"
+                                        src={dmegahome7}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -392,7 +424,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-8-dark.html">
                                       <img
-                                        src="img/mega/home-8-dark.png"
+                                        src={dmegahome8}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -409,7 +441,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-9-dark.html">
                                       <img
-                                        src="img/mega/home-9-dark.png"
+                                        src={dmegahome9}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -426,7 +458,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-10-dark.html">
                                       <img
-                                        src="img/mega/home-10-dark.png"
+                                        src={dmegahome10}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -443,7 +475,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="home-11-dark.html">
                                       <img
-                                        src="img/mega/home-11-dark.png"
+                                        src={dmegahome11}
                                         alt="Mega Menu"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -460,7 +492,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming-dark.png"
+                                        src={dcoming1}
                                         alt="Mega Menu 1"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -474,7 +506,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming-dark.png"
+                                        src={dcoming2}
                                         alt="Mega Menu 2"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -488,7 +520,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming-dark.png"
+                                        src={dcoming3}
                                         alt="Mega Menu 3"
                                       />
                                       <span class="mega__menu__thumb__title">
@@ -502,7 +534,7 @@ const DemoIndex = () => {
                                   <div class="mega__menu__thumb">
                                     <Link to="#">
                                       <img
-                                        src="img/mega/coming-dark.png"
+                                        src={dcoming4}
                                         alt="Mega Menu 4"
                                       />
                                       <span class="mega__menu__thumb__title">
