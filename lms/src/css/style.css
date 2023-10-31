@@ -7976,6 +7976,11 @@ Blog
 .blogarea__content__wraper .blogarea__text__wraper {
   padding: 40px 35px 35px 35px;
 }
+
+.blogarea__text__wraper h3 a {
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .blogarea__content__wraper .blogarea__text__wraper {
     padding: 20px;
