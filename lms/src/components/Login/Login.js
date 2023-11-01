@@ -11,6 +11,7 @@ import img7 from "../../img/herobanner/herobanner__3.png";
 import img8 from "../../img/herobanner/herobanner__5.png";
 import DarkNight from "../DarkNight";
 import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 const Login = () => {
   return (
@@ -295,6 +296,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

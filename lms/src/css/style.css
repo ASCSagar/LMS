@@ -3288,6 +3288,9 @@ Hero Banner Area
   font-size: 24px;
   line-height: 1;
 }
+.gridarea__heading h3 a {
+  text-decoration: none;
+}
 .herobannerarea__clms
   .gridarea__wraper.gridarea__wraper__2
   .gridarea__content
@@ -8411,6 +8414,7 @@ Blog
   display: inline-block;
   line-height: 50px;
   text-align: center;
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .main__pagination__wrapper ul li a {
@@ -9406,6 +9410,7 @@ Course
   padding: 8px 13px;
   display: block;
   margin-bottom: 15px;
+  text-decoration: none;
 }
 .course__categories__list ul li a:hover {
   background: var(--primaryColor);
@@ -9425,6 +9430,7 @@ Course
 .course__tag__list ul li a {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .course__tag__list ul li a .course__check__box {
   height: 15px;
@@ -9455,6 +9461,9 @@ Course
   line-height: 26px;
   margin-bottom: 10px;
   display: block;
+}
+.course__skill__list ul li a {
+  text-decoration: none;
 }
 .course__skill__list ul li:last-child {
   margin: 0;
@@ -9501,6 +9510,9 @@ Course
 }
 .course__text__wraper .course__icon ul li a {
   margin-right: 11px;
+}
+.course__icon ul li a {
+  text-decoration: none;
 }
 .course__text__wraper .course__icon ul li a.active {
   color: var(--primaryColor);
