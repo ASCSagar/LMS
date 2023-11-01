@@ -10,7 +10,6 @@ import herobanner__5 from "../img/herobanner/herobanner__5.png";
 const HeroBanner = () => {
   return (
     <>
-      {/* <!-- herobannerarea__section__start --> */}
       <div className="herobannerarea herobannerarea__2">
         <div className="container">
           <div className="row">
@@ -84,7 +83,6 @@ const HeroBanner = () => {
           />
         </div>
       </div>
-      {/* <!-- herobannerarea__section__end--> */}
     </>
   );
 };
