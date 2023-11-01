@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import mega_1 from '../../img/mega/mega_menu_1.png';
 
 const CourseIndex = () => {
   return (
@@ -99,7 +100,7 @@ const CourseIndex = () => {
             <div class="col-3 mega__menu__single__wrap">
               <div class="mega__menu__img">
                 <Link to="#">
-                  <img src="img/mega/mega_menu_1.png" alt="Mega Menu" />
+                  <img src={mega_1} alt="Mega Menu" />
                 </Link>
               </div>
             </div>

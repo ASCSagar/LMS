@@ -71,7 +71,7 @@ const DemoIndex = () => {
               <div class="row">
                 <div class="col-3 mega__menu__single__wrap">
                   <div class="mega__menu__thumb">
-                    <Link to="index.html">
+                    <Link to="/HomeDefault">
                       <img src={megahome1} alt="Mega Menu" />
                       <span class="mega__menu__thumb__title">
                         Home (Default)
