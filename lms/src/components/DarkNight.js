@@ -4,11 +4,11 @@ const DarkNight = () => {
   return (
     <>
       {/* <!-- Dark/Light area start --> */}
-      <div class="mode_switcher my_switcher">
-        <button id="light--to-dark-button" class="light align-items-center">
+      <div className="mode_switcher my_switcher">
+        <button id="light--to-dark-button" className="light align-items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="ionicon dark__mode"
+            className="ionicon dark__mode"
             viewBox="0 0 512 512"
           >
             <path
@@ -22,7 +22,7 @@ const DarkNight = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="ionicon light__mode"
+            className="ionicon light__mode"
             viewBox="0 0 512 512"
           >
             <path
@@ -44,8 +44,8 @@ const DarkNight = () => {
               stroke-width="32"
             />
           </svg>
-          <span class="light__mode">Light</span>
-          <span class="dark__mode">Dark</span>
+          <span className="light__mode">Light</span>
+          <span className="dark__mode">Dark</span>
         </button>
       </div>
       {/* <!-- Dark/Light area end --> */}

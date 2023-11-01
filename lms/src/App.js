@@ -1,8 +1,4 @@
-import {
-  Route,
-  Routes,
-  // NavLink,
-} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import HomeDefault from "./components/demos/HomeDefault";
 import Main from "./components/Main";
 
@@ -10,12 +6,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <Main/>
+        <Main />
       </div>
       <Routes>
         <Route path="/HomeDefault" element={<HomeDefault />} />
       </Routes>
-      </>
+    </>
   );
 }
 

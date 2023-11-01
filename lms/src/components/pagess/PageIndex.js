@@ -5,26 +5,26 @@ import mega_2 from '../../img/mega/mega_menu_2.png';
 const PageIndex = () => {
   return (
     <>
-      <li class="mega__menu position-static">
-        <Link class="headerarea__has__dropdown" to="about.html">
-          Pages<i class="icofont-rounded-down"></i>
+      <li className="mega__menu position-static">
+        <Link className="headerarea__has__dropdown" to="about.html">
+          Pages<i className="icofont-rounded-down"></i>
         </Link>
-        <div class="headerarea__submenu mega__menu__wrapper">
-          <div class="row">
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+        <div className="headerarea__submenu mega__menu__wrapper">
+          <div className="row">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 1 </Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="about.html">
-                    About <span class="mega__menu__label">Sale Everything</span>
+                    About <span className="mega__menu__label">Sale Everything</span>
                   </Link>
                 </li>
                 <li>
                   <Link to="about-dark.html">
                     About (Dark)
-                    <span class="mega__menu__label new">New</span>
+                    <span className="mega__menu__label new">New</span>
                   </Link>
                 </li>
                 <li>
@@ -41,11 +41,11 @@ const PageIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 2 </Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="error.html">Error 404</Link>
                 </li>
@@ -58,7 +58,7 @@ const PageIndex = () => {
                 <li>
                   <Link to="zoom/zoom-meetings.html">
                     Zoom
-                    <span class="mega__menu__label">Online Call</span>
+                    <span className="mega__menu__label">Online Call</span>
                   </Link>
                 </li>
                 <li>
@@ -73,11 +73,11 @@ const PageIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 3</Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="zoom/zoom-meeting-details-dark.html">
                     Meeting Details (Dark)
@@ -100,11 +100,11 @@ const PageIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 4</Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="#">Terms & Condition (Dark)</Link>
                 </li>
@@ -125,8 +125,8 @@ const PageIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-12 mega__menu__single__wrap sp_top_30">
-              <div class="mega__menu__img">
+            <div className="col-12 mega__menu__single__wrap sp_top_30">
+              <div className="mega__menu__img">
                 <Link to="#">
                   <img src={mega_2} alt="Mega Menu" />
                 </Link>

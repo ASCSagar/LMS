@@ -5,15 +5,15 @@ const EcommerceIndex = () => {
   return (
     <>
       <li>
-        <Link class="headerarea__has__dropdown" to="ecommerce/shop.html">
+        <Link className="headerarea__has__dropdown" to="ecommerce/shop.html">
           eCommerce
           <i className="icofont-rounded-down" />
         </Link>
-        <ul class="headerarea__submenu">
+        <ul className="headerarea__submenu">
           <li>
             <Link to="ecommerce/shop.html">
               Shop
-              <span class="mega__menu__label">Online Store</span>
+              <span className="mega__menu__label">Online Store</span>
             </Link>
           </li>
           <li>

@@ -16,20 +16,20 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <div class="headerarea headerarea__3 header__sticky header__area">
-          <div class="container desktop__menu__wrapper">
-            <div class="row">
-              <div class="col-xl-2 col-lg-2 col-md-6">
-                <div class="headerarea__left">
-                  <div class="headerarea__left__logo">
+        <div className="headerarea headerarea__3 header__sticky header__area">
+          <div className="container desktop__menu__wrapper">
+            <div className="row">
+              <div className="col-xl-2 col-lg-2 col-md-6">
+                <div className="headerarea__left">
+                  <div className="headerarea__left__logo">
                     <Link to="index.html">
                       <img src={companyLogo} alt="logo" />
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-7 col-lg-7 main_menu_wrap">
-                <div class="headerarea__main__menu">
+              <div className="col-xl-7 col-lg-7 main_menu_wrap">
+                <div className="headerarea__main__menu">
                   <nav>
                     <ul>
                       <DemoIndex />
@@ -41,108 +41,108 @@ const Navbar = () => {
                   </nav>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6">
-                <div class="headerarea__right">
+              <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="headerarea__right">
                   <CartIndex />
                   <LoginIndex />
-                  <div class="headerarea__button">
+                  <div className="headerarea__button">
                     <Link to="#">Get Start</Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="container-fluid mob_menu_wrapper">
-            <div class="row align-items-center">
-              <div class="col-6">
-                <div class="mobile-logo">
-                  <Link class="logo__dark" to="#">
+          <div className="container-fluid mob_menu_wrapper">
+            <div className="row align-items-center">
+              <div className="col-6">
+                <div className="mobile-logo">
+                  <Link className="logo__dark" to="#">
                     <img src="img/logo/logo_1.png" alt="logo" />
                   </Link>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="header-right-wrap">
-                  <div class="headerarea__right">
-                    <div class="header__cart">
+              <div className="col-6">
+                <div className="header-right-wrap">
+                  <div className="headerarea__right">
+                    <div className="header__cart">
                       <Link to="#">
                         {" "}
-                        <i class="icofont-cart-alt"></i>
+                        <i className="icofont-cart-alt"></i>
                       </Link>
-                      <div class="header__right__dropdown__wrapper">
-                        <div class="header__right__dropdown__inner">
-                          <div class="single__header__right__dropdown">
-                            <div class="header__right__dropdown__img">
+                      <div className="header__right__dropdown__wrapper">
+                        <div className="header__right__dropdown__inner">
+                          <div className="single__header__right__dropdown">
+                            <div className="header__right__dropdown__img">
                               <Link to="#">
                                 <img src={cart1} alt="photoo" />
                               </Link>
                             </div>
-                            <div class="header__right__dropdown__content">
+                            <div className="header__right__dropdown__content">
                               <Link to="shop-product.html">Web Directory</Link>
                               <p>
-                                1 x <span class="price">$ 80.00</span>
+                                1 x <span className="price">$ 80.00</span>
                               </p>
                             </div>
-                            <div class="header__right__dropdown__close">
+                            <div className="header__right__dropdown__close">
                               <Link to="#">
-                                <i class="icofont-close-line"></i>
+                                <i className="icofont-close-line"></i>
                               </Link>
                             </div>
                           </div>
-                          <div class="single__header__right__dropdown">
-                            <div class="header__right__dropdown__img">
+                          <div className="single__header__right__dropdown">
+                            <div className="header__right__dropdown__img">
                               <Link to="#">
                                 <img src={cart2} alt="photoo" />
                               </Link>
                             </div>
-                            <div class="header__right__dropdown__content">
+                            <div className="header__right__dropdown__content">
                               <Link to="shop-product.html">Design Minois</Link>
                               <p>
-                                1 x <span class="price">$ 60.00</span>
+                                1 x <span className="price">$ 60.00</span>
                               </p>
                             </div>
-                            <div class="header__right__dropdown__close">
+                            <div className="header__right__dropdown__close">
                               <Link to="#">
-                                <i class="icofont-close-line"></i>
+                                <i className="icofont-close-line"></i>
                               </Link>
                             </div>
                           </div>
-                          <div class="single__header__right__dropdown">
-                            <div class="header__right__dropdown__img">
+                          <div className="single__header__right__dropdown">
+                            <div className="header__right__dropdown__img">
                               <Link to="#">
                                 <img src={cart3} alt="photoo" />
                               </Link>
                             </div>
-                            <div class="header__right__dropdown__content">
+                            <div className="header__right__dropdown__content">
                               <Link to="shop-product.html">Crash Course</Link>
                               <p>
-                                1 x <span class="price">$ 70.00</span>
+                                1 x <span className="price">$ 70.00</span>
                               </p>
                             </div>
-                            <div class="header__right__dropdown__close">
+                            <div className="header__right__dropdown__close">
                               <Link to="#">
-                                <i class="icofont-close-line"></i>
+                                <i className="icofont-close-line"></i>
                               </Link>
                             </div>
                           </div>
                         </div>
-                        <p class="dropdown__price">
+                        <p className="dropdown__price">
                           Total: <span>$1,100.00</span>
                         </p>
-                        <div class="header__right__dropdown__button">
-                          <Link to="#" class="white__color">
+                        <div className="header__right__dropdown__button">
+                          <Link to="#" className="white__color">
                             VIEW CART
                           </Link>
-                          <Link to="#" class="blue__color">
+                          <Link to="#" className="blue__color">
                             CHECKOUT
                           </Link>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="mobile-off-canvas">
-                    <Link class="mobile-aside-button" to="#">
-                      <i class="icofont-navigation-menu"></i>
+                  <div className="mobile-off-canvas">
+                    <Link className="mobile-aside-button" to="#">
+                      <i className="icofont-navigation-menu"></i>
                     </Link>
                   </div>
                 </div>

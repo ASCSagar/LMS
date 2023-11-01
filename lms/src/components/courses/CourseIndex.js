@@ -5,20 +5,20 @@ import mega_1 from '../../img/mega/mega_menu_1.png';
 const CourseIndex = () => {
   return (
     <>
-      <li class="mega__menu position-static">
-        <Link class="headerarea__has__dropdown" to="course.html">
-          Courses<i class="icofont-rounded-down"></i>{" "}
+      <li className="mega__menu position-static">
+        <Link className="headerarea__has__dropdown" to="course.html">
+          Courses<i className="icofont-rounded-down"></i>{" "}
         </Link>
-        <div class="headerarea__submenu mega__menu__wrapper">
-          <div class="row">
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+        <div className="headerarea__submenu mega__menu__wrapper">
+          <div className="row">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 1 </Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="course.html">
-                    Grid <span class="mega__menu__label">All Courses</span>
+                    Grid <span className="mega__menu__label">All Courses</span>
                   </Link>
                 </li>
                 <li>
@@ -38,11 +38,11 @@ const CourseIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 2 </Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="course-details.html">Course Details</Link>
                 </li>
@@ -65,11 +65,11 @@ const CourseIndex = () => {
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <h4 class="mega__menu__title">
+            <div className="col-3 mega__menu__single__wrap">
+              <h4 className="mega__menu__title">
                 <Link to="#">Get Started 3</Link>
               </h4>
-              <ul class="mega__menu__item">
+              <ul className="mega__menu__item">
                 <li>
                   <Link to="dashboard/become-an-instructor.html">
                     Become An Instructor
@@ -77,7 +77,7 @@ const CourseIndex = () => {
                 </li>
                 <li>
                   <Link to="dashboard/create-course.html">
-                    Create Course <span class="mega__menu__label">Career</span>
+                    Create Course <span className="mega__menu__label">Career</span>
                   </Link>
                 </li>
                 <li>
@@ -92,13 +92,13 @@ const CourseIndex = () => {
                 <li>
                   <Link to="lesson.html">
                     Course Lesson
-                    <span class="mega__menu__label new">New</span>
+                    <span className="mega__menu__label new">New</span>
                   </Link>
                 </li>
               </ul>
             </div>
-            <div class="col-3 mega__menu__single__wrap">
-              <div class="mega__menu__img">
+            <div className="col-3 mega__menu__single__wrap">
+              <div className="mega__menu__img">
                 <Link to="#">
                   <img src={mega_1} alt="Mega Menu" />
                 </Link>

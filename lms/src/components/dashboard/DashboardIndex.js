@@ -6,18 +6,18 @@ const DashboardIndex = () => {
     <>
       <li>
         <Link
-          class="headerarea__has__dropdown"
+          className="headerarea__has__dropdown"
           to="dashboard/instructor-dashboard.html"
         >
           Dashboard
-          <i class="icofont-rounded-down"></i>
+          <i className="icofont-rounded-down"></i>
         </Link>
-        <ul class="headerarea__submenu headerarea__submenu--third--wrap">
+        <ul className="headerarea__submenu headerarea__submenu--third--wrap">
           <li>
             <Link to="https://html.themewin.com/edurock-preview/admin-dashboard.html">
-              Admin <i class="icofont-rounded-right"></i>
+              Admin <i className="icofont-rounded-right"></i>
             </Link>
-            <ul class="headerarea__submenu--third">
+            <ul className="headerarea__submenu--third">
               <li>
                 <Link to="dashboard/admin-dashboard.html">Admin Dashboard</Link>
               </li>
@@ -43,9 +43,9 @@ const DashboardIndex = () => {
           </li>
           <li>
             <Link to="dashboard/instructor-dashboard.html">
-              Instructor <i class="icofont-rounded-right"></i>
+              Instructor <i className="icofont-rounded-right"></i>
             </Link>
-            <ul class="headerarea__submenu--third">
+            <ul className="headerarea__submenu--third">
               <li>
                 <Link to="dashboard/instructor-dashboard.html">
                   Inst. Dashboard
@@ -100,9 +100,9 @@ const DashboardIndex = () => {
           </li>
           <li>
             <Link to="dashboard/student-dashboard.html">
-              Student <i class="icofont-rounded-right"></i>
+              Student <i className="icofont-rounded-right"></i>
             </Link>
-            <ul class="headerarea__submenu--third">
+            <ul className="headerarea__submenu--third">
               <li>
                 <Link to="dashboard/student-dashboard.html">Dashboard</Link>
               </li>
