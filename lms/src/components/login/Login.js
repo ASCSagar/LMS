@@ -1,8 +1,18 @@
 import React from "react";
+import Navbar from "../Navbar";
+import TopBar from "../Topbar";
+import img1 from "../../img/education/hero_shape2.png";
+import img2 from "../../img/education/hero_shape3.png";
+import img3 from "../../img/education/hero_shape4.png";
+import img4 from "../../img/education/hero_shape5.png";
+import DarkNight from "../DarkNight";
 
 const Login = () => {
   return (
     <>
+      <DarkNight />
+      <TopBar />
+      <Navbar />
       <div className="loginarea sp_top_100 sp_bottom_100">
         <div className="container">
           <div className="row">
@@ -77,11 +87,11 @@ const Login = () => {
                           <label for="forgot"> Remember me</label>
                         </div>
                         <div className="text-end login__form__link">
-                          <a href="#">Forgot your password?</a>
+                          <a href=" ">Forgot your password?</a>
                         </div>
                       </div>
                       <div className="login__button">
-                        <a className="default__button" href="#">
+                        <a className="default__button" href=" ">
                           Log In
                         </a>
                       </div>
@@ -92,13 +102,13 @@ const Login = () => {
                         <li>
                           <a
                             className="default__button login__button__1"
-                            href="#"
+                            href=" "
                           >
                             <i className="icofont-facebook"></i> Gacebook
                           </a>
                         </li>
                         <li>
-                          <a className="default__button" href="#">
+                          <a className="default__button" href=" ">
                             <i className="icofont-google-plus"></i> Google
                           </a>
                         </li>
@@ -118,8 +128,7 @@ const Login = () => {
                     <div className="login__heading">
                       <h5 className="login__title">Sing Up</h5>
                       <p className="login__description">
-                        Already have an account?{" "}
-                        <a href="/login">Log In</a>
+                        Already have an account? <a href="/login">Log In</a>
                       </p>
                     </div>
                     <form action="#">
@@ -196,7 +205,7 @@ const Login = () => {
                         </div>
                       </div>
                       <div className="login__button">
-                        <a className="default__button" href="#">
+                        <a className="default__button" href=" ">
                           Log In
                         </a>
                       </div>
@@ -209,22 +218,22 @@ const Login = () => {
           <div className=" login__shape__img educationarea__shape_image">
             <img
               className="hero__shape hero__shape__1"
-              src="img/education/hero_shape2.png"
+              src={img1}
               alt="Shape"
             />
             <img
               className="hero__shape hero__shape__2"
-              src="img/education/hero_shape3.png"
+              src={img2}
               alt="Shape"
             />
             <img
               className="hero__shape hero__shape__3"
-              src="img/education/hero_shape4.png"
+              src={img3}
               alt="Shape"
             />
             <img
               className="hero__shape hero__shape__4"
-              src="img/education/hero_shape5.png"
+              src={img4}
               alt="Shape"
             />
           </div>
