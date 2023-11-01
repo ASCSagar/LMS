@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="col-xl-2 col-lg-2 col-md-6">
                 <div className="headerarea__left">
                   <div className="headerarea__left__logo">
-                    <Link to="index.html">
+                    <Link to="/">
                       <img src={companyLogo} alt="logo" />
                     </Link>
                   </div>
