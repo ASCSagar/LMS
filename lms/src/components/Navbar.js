@@ -10,7 +10,6 @@ import CourseIndex from "./courses/CourseIndex";
 import DashboardIndex from "./dashboard/DashboardIndex";
 import EcommerceIndex from "./eCommerce/EcommerceIndex";
 import CartIndex from "./cart/CartIndex";
-import LoginIndex from "./login/LoginIndex";
 
 const Navbar = () => {
   return (
@@ -44,7 +43,11 @@ const Navbar = () => {
               <div className="col-xl-3 col-lg-3 col-md-6">
                 <div className="headerarea__right">
                   <CartIndex />
-                  <LoginIndex />
+                  <div className="headerarea__login">
+                    <Link to="/login">
+                      <i className="icofont-user-alt-5"></i>
+                    </Link>
+                  </div>
                   <div className="headerarea__button">
                     <Link to="#">Get Start</Link>
                   </div>

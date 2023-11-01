@@ -1,18 +1,19 @@
-import { Route, Routes } from "react-router-dom";
-import HomeDefault from "./components/demos/HomeDefault";
 import Main from "./components/Main";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Login from "./components/login/Login";
 
 function App() {
-  return (
-    <>
-      <div className="App">
-        <Main />
-      </div>
-      <Routes>
-        <Route path="/HomeDefault" element={<HomeDefault />} />
-      </Routes>
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main />,
+    },
+    {
+      path: "/login", 
+      element: <Login />,
+    },
+  ]);
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;

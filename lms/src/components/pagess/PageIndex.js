@@ -84,7 +84,7 @@ const PageIndex = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="login.html">Login</Link>
+                  <Link to="/login">Login</Link>
                 </li>
                 <li>
                   <Link to="login-dark.html">Login (Dark)</Link>
