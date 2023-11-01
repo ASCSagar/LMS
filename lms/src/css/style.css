@@ -6261,7 +6261,7 @@ Event
 }
 
 .tab__button__wrap {
-  margin-bottom: 43px;
+  margin-bottom: 43px !important;
 }
 @media (max-width: 767px) {
   .tab__button__wrap {

@@ -10,6 +10,7 @@ import img6 from "../../img/herobanner/herobanner__2.png";
 import img7 from "../../img/herobanner/herobanner__3.png";
 import img8 from "../../img/herobanner/herobanner__5.png";
 import DarkNight from "../DarkNight";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -19,18 +20,21 @@ const Login = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div class="breadcrumbarea">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-12">
-                  <div class="breadcrumb__content__wraper" data-aos="fade-up">
-                    <div class="breadcrumb__title">
-                      <h2 class="heading">Log In</h2>
+          <div className="breadcrumbarea">
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-12">
+                  <div
+                    className="breadcrumb__content__wraper"
+                    data-aos="fade-up"
+                  >
+                    <div className="breadcrumb__title">
+                      <h2 className="heading">Log In</h2>
                     </div>
-                    <div class="breadcrumb__inner">
+                    <div className="breadcrumb__inner">
                       <ul>
                         <li>
-                          <a href="/">Home</a>
+                          <Link to="/">Home</Link>
                         </li>
                         <li>Log In</li>
                       </ul>
@@ -39,24 +43,24 @@ const Login = () => {
                 </div>
               </div>
             </div>
-            <div class="shape__icon__2">
+            <div className="shape__icon__2">
               <img
-                className=" shape__icon__img shape__icon__img__1"
+                className="shape__icon__img shape__icon__img__1"
                 src={img5}
                 alt="img5"
               />
               <img
-                className=" shape__icon__img shape__icon__img__2"
+                className="shape__icon__img shape__icon__img__2"
                 src={img6}
                 alt="img6"
               />
               <img
-                className=" shape__icon__img shape__icon__img__3"
+                className="shape__icon__img shape__icon__img__3"
                 src={img7}
                 alt="img7"
               />
               <img
-                className=" shape__icon__img shape__icon__img__4"
+                className="shape__icon__img shape__icon__img__4"
                 src={img8}
                 alt="img8"
               />
@@ -113,7 +117,7 @@ const Login = () => {
                           <h5 className="login__title">Login</h5>
                           <p className="login__description">
                             Don't have an account yet?{" "}
-                            <a href="login">Sign up for free</a>
+                            <Link to="/login">Sign up for free</Link>
                           </p>
                         </div>
                         <form action="#">
@@ -138,33 +142,28 @@ const Login = () => {
                           <div className="login__form d-flex justify-content-between flex-wrap gap-2">
                             <div className="form__check">
                               <input id="forgot" type="checkbox" />
-                              <label for="forgot"> Remember me</label>
+                              <label for="forgot">Remember me</label>
                             </div>
                             <div className="text-end login__form__link">
-                              <a href=" ">Forgot your password?</a>
+                              <Link to="">Forgot your password?</Link>
                             </div>
                           </div>
                           <div className="login__button">
-                            <a className="default__button" href=" ">
-                              Log In
-                            </a>
+                            <Link className="default__button">Log In</Link>
                           </div>
                         </form>
                         <div className="login__social__option">
                           <p>or Log-in with</p>
                           <ul className="login__social__btn">
                             <li>
-                              <a
-                                className="default__button login__button__1"
-                                href=" "
-                              >
+                              <Link className="default__button login__button__1">
                                 <i className="icofont-facebook"></i> Gacebook
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a className="default__button" href=" ">
+                              <Link className="default__button">
                                 <i className="icofont-google-plus"></i> Google
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -182,7 +181,8 @@ const Login = () => {
                         <div className="login__heading">
                           <h5 className="login__title">Sing Up</h5>
                           <p className="login__description">
-                            Already have an account? <a href="/login">Log In</a>
+                            Already have an account?{" "}
+                            <Link to="/login">Log In</Link>
                           </p>
                         </div>
                         <form action="#">
@@ -261,9 +261,7 @@ const Login = () => {
                             </div>
                           </div>
                           <div className="login__button">
-                            <a className="default__button" href=" ">
-                              Log In
-                            </a>
+                            <Link className="default__button">Log In</Link>
                           </div>
                         </form>
                       </div>
@@ -271,7 +269,7 @@ const Login = () => {
                   </div>
                 </div>
               </div>
-              <div className=" login__shape__img educationarea__shape_image">
+              <div className="login__shape__img educationarea__shape_image">
                 <img
                   className="hero__shape hero__shape__1"
                   src={img1}
