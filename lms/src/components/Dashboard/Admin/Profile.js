@@ -3,7 +3,7 @@ import DarkNight from "../../DarkNight";
 import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
-import DashBoardNavBar from "../DashboardNavBar/DashBoardNavBar";
+import DANavBar from "./DANavBar/DANavBar";
 import { Link } from "react-router-dom";
 
 const AdminProfile = () => {
@@ -17,7 +17,7 @@ const AdminProfile = () => {
           <div class="theme__shadow__circle"></div>
           <div class="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
-            <DashBoardNavBar />
+            <DANavBar/>
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">

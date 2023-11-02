@@ -26,7 +26,7 @@ import lock from "../../../img/dashbord/lock.png";
 import success from "../../../img/dashbord/success.png";
 import verify from "../../../img/dashbord/verify.png";
 import video from "../../../img/dashbord/video.png";
-import DashBoardNavBar from "../DashboardNavBar/DashBoardNavBar";
+import DANavBar from "./DANavBar/DANavBar";
 import { Link } from "react-router-dom";
 
 const AdminDashboard = () => {
@@ -40,7 +40,7 @@ const AdminDashboard = () => {
           <div class="theme__shadow__circle"></div>
           <div class="theme__shadow__circle shadow__right"></div>
           <div class="dashboardarea sp_bottom_100">
-            <DashBoardNavBar />
+            <DANavBar/>
             <div class="dashboard">
               <div class="container-fluid full__width__padding">
                 <div class="row">
@@ -362,7 +362,7 @@ const AdminDashboard = () => {
                         <div class="dashboard__content__wraper admin__content__wrapper">
                           <div class="dashboard__section__title">
                             <h4>Popular Instructor</h4>
-                            <a href="../course.html">See More...</a>
+                            <Link to="/courses">See More...</Link>
                           </div>
                           <div class="dashboard__popular__instructor">
                             <div class="dashboard__popular__instructor__single">
@@ -502,7 +502,7 @@ const AdminDashboard = () => {
                         <div class="dashboard__content__wraper admin__content__wrapper">
                           <div class="dashboard__section__title">
                             <h4>Recent Course</h4>
-                            <a href="../course.html">See More...</a>
+                            <Link to="/courses">See More...</Link>
                           </div>
 
                           <div class="dashboard__recent__course">
@@ -651,7 +651,7 @@ const AdminDashboard = () => {
                         <div class="dashboard__content__wraper admin__content__wrapper">
                           <div class="dashboard__section__title">
                             <h4>Notice Board</h4>
-                            <a href="../course.html">See More...</a>
+                            <Link to="/courses">See More...</Link>
                           </div>
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
@@ -764,7 +764,7 @@ const AdminDashboard = () => {
                         <div class="dashboard__content__wraper admin__content__wrapper">
                           <div class="dashboard__section__title">
                             <h4>Notifications</h4>
-                            <a href="../course.html">See More...</a>
+                            <Link to="/courses">See More...</Link>
                           </div>
                           <div class="dashboard__popular__instructor dashboard__notificatoin__wrap">
                             <div class="dashboard__popular__instructor__single">
@@ -839,7 +839,7 @@ const AdminDashboard = () => {
                     <div class="dashboard__content__wraper">
                       <div class="dashboard__section__title">
                         <h4>Total Feedbacks</h4>
-                        <a href="../course.html">See More...</a>
+                        <Link to="/courses">See More...</Link>
                       </div>
                       <div class="row">
                         <div class="col-xl-12">
