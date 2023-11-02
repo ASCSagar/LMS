@@ -1,42 +1,35 @@
 import React from "react";
+import Footer from "../../Footer";
 import DarkNight from "../../DarkNight";
 import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
-import Footer from "../../Footer";
-import counter1 from "../../../img/counter/counter__1.png";
-import counter2 from "../../../img/counter/counter__2.png";
-import counter3 from "../../../img/counter/counter__3.png";
-import counter4 from "../../../img/counter/counter__4.png";
 import DINavBar from "./DINavBar/DINavBar";
 import { Link } from "react-router-dom";
 
-const InstructorDashboard = () => {
+const InstructorOrderHistory = () => {
   return (
     <>
       <DarkNight />
       <TopBar />
       <Navbar />
       <div className="body__wrapper">
+        <div className="theme__shadow__circle"></div>
+        <div className="theme__shadow__circle shadow__right"></div>
         <div className="main_wrapper overflow-hidden">
-          <div className="theme__shadow__circle"></div>
-          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DINavBar />
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">
                   <div className="col-xl-3 col-lg-3 col-md-12">
-                    <div className="dashboard__inner sticky-top">
+                    <div className="dashboard__inner">
                       <div className="dashboard__nav__title">
-                        <h6>Welcome, Micle Obema</h6>
+                        <h6>Michle Obama</h6>
                       </div>
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link
-                              className="active"
-                              to="/dashboard"
-                            >
+                            <Link to="/dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -156,7 +149,10 @@ const InstructorDashboard = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/instructor-order-history">
+                            <Link
+                              className="active"
+                              to="/dashboard/instructor-order-history"
+                            >
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -326,106 +322,7 @@ const InstructorDashboard = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12">
                     <div className="dashboard__content__wraper">
                       <div className="dashboard__section__title">
-                        <h4>Dashboard</h4>
-                      </div>
-                      <div className="row">
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter1} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">27</span>+
-                                </div>
-                                <p>Enrolled Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter2} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">08</span>+
-                                </div>
-                                <p>Active Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter3} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">5</span>k
-                                </div>
-                                <p>Complete Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter4} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">14</span>+
-                                </div>
-                                <p>Total Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter3} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">10</span>k
-                                </div>
-                                <p>Total Students</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter4} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">30,000</span>+
-                                </div>
-                                <p>Total Earning</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="dashboard__content__wraper">
-                      <div className="dashboard__section__title">
-                        <h4>Dashboard</h4>
-                        <a href="../course.html">See More...</a>
+                        <h4>Order History</h4>
                       </div>
                       <div className="row">
                         <div className="col-xl-12">
@@ -433,122 +330,176 @@ const InstructorDashboard = () => {
                             <table>
                               <thead>
                                 <tr>
+                                  <th>Order ID</th>
                                   <th>Course Name</th>
-                                  <th>Enrolled</th>
-                                  <th>Rating</th>
+                                  <th>Date</th>
+                                  <th>Price</th>
+                                  <th>Status</th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <th>
-                                    <a href=" ">Javascript</a>
-                                  </th>
-                                  <td>1100</td>
+                                  <th>#5478</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
                                   <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
-                                    </div>
+                                    <span className="dashboard__td">Success</span>
                                   </td>
                                 </tr>
                                 <tr className="dashboard__table__row">
-                                  <th>
-                                    <a href=" ">PHP</a>
-                                  </th>
-                                  <td>700</td>
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
                                   <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
-                                    </div>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Processing
+                                    </span>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">On Hold</span>
+                                  </td>
+                                </tr>
+
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
                                   </td>
                                 </tr>
                                 <tr>
-                                  <th>
-                                    <a href=" ">HTML</a>
-                                  </th>
-                                  <td>1350</td>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
                                   <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
-                                    </div>
+                                    <span className="dashboard__td">On Hold</span>
                                   </td>
                                 </tr>
                                 <tr className="dashboard__table__row">
-                                  <th>
-                                    <a href=" ">Graphic</a>
-                                  </th>
-                                  <td>1266</td>
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
                                   <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
-                                    </div>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">On Hold</span>
+                                  </td>
+                                </tr>
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th>#5478</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">Success</span>
+                                  </td>
+                                </tr>
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Processing
+                                    </span>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">On Hold</span>
+                                  </td>
+                                </tr>
+
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">On Hold</span>
+                                  </td>
+                                </tr>
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th>#9656</th>
+                                  <td>App Development</td>
+                                  <td>January 27, 2023</td>
+                                  <td>$100.99</td>
+                                  <td>
+                                    <span className="dashboard__td">On Hold</span>
+                                  </td>
+                                </tr>
+                                <tr className="dashboard__table__row">
+                                  <th>#4585</th>
+                                  <td>Graphic</td>
+                                  <td>May 27, 2023</td>
+                                  <td>$200.99</td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td__2">
+                                      Canceled
+                                    </span>
                                   </td>
                                 </tr>
                               </tbody>
@@ -569,4 +520,4 @@ const InstructorDashboard = () => {
   );
 };
 
-export default InstructorDashboard;
+export default InstructorOrderHistory;

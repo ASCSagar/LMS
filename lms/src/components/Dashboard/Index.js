@@ -39,59 +39,59 @@ const DashboardIndex = () => {
             </ul>
           </li>
           <li>
-            <Link to="dashboard/instructor-dashboard.html">
+            <Link>
               Instructor <i className="icofont-rounded-right"></i>
             </Link>
             <ul className="headerarea__submenu--third">
               <li>
-                <Link to="dashboard/instructor-dashboard.html">
-                  Inst. Dashboard
+                <Link to="/dashboard">
+                 Dashboard
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-profile.html">
-                  Inst. Profile
+                <Link to="/dashboard/instructor-profile">
+                  Profile
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-message.html">Message</Link>
+                <Link to="/dashboard/instructor-message">Message</Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-wishlist.html">Wishlist</Link>
+                <Link to="/dashboard/instructor-wishlist">Wishlist</Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-reviews.html">Review</Link>
+                <Link to="/dashboard/instructor-reviews">Review</Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-my-quiz-attempts.html">
+                <Link to="/dashboard/instructor-my-quiz">
                   My Quiz
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-order-history.html">
+                <Link to="/dashboard/instructor-order-history">
                   Order History
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-course.html">My Courses</Link>
+                <Link to="/dashboard/instructor-course">My Courses</Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-announcments.html">
+                <Link to="dashboard/instructor-announcments">
                   Announcements
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-quiz-attempts.html">
+                <Link to="/dashboard/instructor-quiz-attempts">
                   Quiz Attempts
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-assignments.html">
+                <Link to="/dashboard/instructor-assignments">
                   Assignment
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-settings.html">Settings</Link>
+                <Link to="/dashboard/instructor-settings">Settings</Link>
               </li>
             </ul>
           </li>
