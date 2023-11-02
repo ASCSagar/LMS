@@ -1,7 +1,7 @@
 import React from "react";
-import dashbord2 from "../../../img/dashbord/dashbord__2.jpg";
+import dashbord2 from "../../../../img/dashbord/dashbord__2.jpg";
 
-const DashBoardNavBar = () => {
+const DANavBar = () => {
   return (
     <div className="container-fluid full__width__padding">
       <div className="row">
@@ -70,4 +70,4 @@ const DashBoardNavBar = () => {
   );
 };
 
-export default DashBoardNavBar;
+export default DANavBar;

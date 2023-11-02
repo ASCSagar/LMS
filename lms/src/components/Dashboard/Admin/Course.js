@@ -11,7 +11,7 @@ import grid3 from "../../../img/grid/grid_3.png";
 import grid3Small from "../../../img/grid/grid_small_3.jpg";
 import grid4 from "../../../img/grid/grid_4.png";
 import grid5 from "../../../img/grid/grid_5.png";
-import DashBoardNavBar from "../DashboardNavBar/DashBoardNavBar";
+import DANavBar from "./DANavBar/DANavBar";
 import { Link } from "react-router-dom";
 
 const AdminCourses = () => {
@@ -25,7 +25,7 @@ const AdminCourses = () => {
           <div class="theme__shadow__circle"></div>
           <div class="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
-            <DashBoardNavBar />
+            <DANavBar/>
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">

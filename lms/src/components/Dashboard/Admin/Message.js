@@ -8,7 +8,7 @@ import teacher2 from "../../../img/teacher/teacher__2.png";
 import teacher3 from "../../../img/teacher/teacher__3.png";
 import teacher4 from "../../../img/teacher/teacher__4.png";
 import teacher5 from "../../../img/teacher/teacher__5.png";
-import DashBoardNavBar from "../DashboardNavBar/DashBoardNavBar";
+import DANavBar from "./DANavBar/DANavBar";
 import { Link } from "react-router-dom";
 
 const AdminMessage = () => {
@@ -22,7 +22,7 @@ const AdminMessage = () => {
           <div class="theme__shadow__circle"></div>
           <div class="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
-            <DashBoardNavBar />
+            <DANavBar/>
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">
