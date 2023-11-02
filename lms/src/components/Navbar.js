@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import companyLogo from "../img/logo/logo_1.png";
-import DashboardIndex from "./Dashboard/DashboardIndex";
+import DashboardIndex from "./Dashboard/Index";
 
 const Navbar = () => {
   return (

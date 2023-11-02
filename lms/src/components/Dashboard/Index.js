@@ -5,39 +5,36 @@ const DashboardIndex = () => {
   return (
     <>
       <li>
-        <Link
-          className="headerarea__has__dropdown"
-          to="dashboard/instructor-dashboard.html"
-        >
+        <Link className="headerarea__has__dropdown" to="/dashboard">
           Dashboard
           <i className="icofont-rounded-down"></i>
         </Link>
         <ul className="headerarea__submenu headerarea__submenu--third--wrap">
           <li>
-            <Link to="https://html.themewin.com/edurock-preview/admin-dashboard.html">
+            <Link>
               Admin <i className="icofont-rounded-right"></i>
             </Link>
             <ul className="headerarea__submenu--third">
               <li>
-                <Link to="dashboard/admin-dashboard.html">Admin Dashboard</Link>
+                <Link to="/dashboard/admin-dashboard">Dashboard</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-profile.html">Admin Profile</Link>
+                <Link to="/dashboard/admin-profile">Profile</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-message.html">Message</Link>
+                <Link to="/dashboard/admin-message">Message</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-course.html">Courses</Link>
+                <Link to="/dashboard/admin-courses">Courses</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-reviews.html">Review</Link>
+                <Link to="/dashboard/admin-review">Review</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-quiz-attempts.html">Admin Quiz</Link>
+                <Link to="/dashboard/admin-quiz">Quiz</Link>
               </li>
               <li>
-                <Link to="dashboard/admin-settings.html">Settings</Link>
+                <Link to="/dashboard/admin-settings">Settings</Link>
               </li>
             </ul>
           </li>

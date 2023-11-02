@@ -487,6 +487,11 @@ li {
   border: 1px solid var(--primaryColor);
   text-decoration: none !important;
 }
+
+ .dashboard__form__button a {
+  color: white;
+ }
+
 .default__button:hover {
   background-color: var(--whiteColor);
   color: var(--primaryColor);
@@ -4593,8 +4598,9 @@ About Area
 }
 
 .about__button__wrap {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .about__button__wrap {
     margin-bottom: 10px;
@@ -11916,6 +11922,10 @@ Breadcrumb Area
   display: block;
 }
 
+.dashboardarea__right__button a {
+  color: var(--whiteColor);
+}
+
 .dashboard {
   padding-top: 30px;
 }
@@ -11964,6 +11974,8 @@ Breadcrumb Area
 }
 .dashboard__nav ul li a {
   font-size: 16px;
+  text-decoration: none;
+  color: var(--contentColor);
 }
 .dashboard__nav ul li a.active {
   color: var(--primaryColor);
@@ -11995,6 +12007,12 @@ Breadcrumb Area
 .dashboard__section__title h4 {
   margin: 0;
 }
+
+.dashboard__section__title a {
+  text-decoration: none;
+  color: var(--contentColor);
+}
+
 .dashboard__single__counter {
   padding: 50px 40px;
   background: var(--lightGrey5);
@@ -12032,10 +12050,16 @@ Breadcrumb Area
 .dashboard__table table tbody tr th {
   font-weight: 400;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   border: 0 none;
   color: var(--darkblack);
 }
+
+.dashboard__table table tbody tr th a {
+  text-decoration: none;
+  color: var(--contentColor);
+}
+
 @media (max-width: 767px) {
   .dashboard__table table tbody tr th {
     padding: 10px 5px;
@@ -12068,7 +12092,7 @@ Breadcrumb Area
   }
 }
 .dashboard__table table tbody tr td {
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   color: var(--contentColor);
 }
 @media (max-width: 767px) {
@@ -12145,6 +12169,7 @@ Breadcrumb Area
 .dashboard__star__course a {
   color: var(--blackColor);
   font-weight: 700;
+  text-decoration: none;
 }
 .dashboard__star__course a :hover {
   color: var(--secondaryColor);
@@ -12592,6 +12617,11 @@ Breadcrumb Area
   font-size: 18px;
   line-height: 1;
 }
+
+.dashboard__popular__instructor__content h4 a {
+  text-decoration: none;
+}
+
 .dashboard__popular__instructor__content span {
   color: var(--darkblack);
 }
@@ -12621,6 +12651,11 @@ Breadcrumb Area
   font-weight: 500;
   margin-bottom: 5px;
 }
+
+.dashboard__recent__course__heading h3 a {
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .dashboard__recent__course__heading h3 {
     margin-top: 10px;
@@ -12655,6 +12690,10 @@ Breadcrumb Area
 }
 .dashboard__recent__course__meta ul li {
   color: var(--darkblack);
+}
+
+.dashboard__recent__course__meta ul li a {
+  text-decoration: none;
 }
 
 .dashboard__meessage {
@@ -12817,6 +12856,7 @@ Breadcrumb Area
   text-align: center;
   border-radius: 50%;
   border: 1px solid var(--borderColor);
+  text-decoration: none;
 }
 .dashboard__meessage__profile__chat__option a:first-child {
   margin-right: 6px;
@@ -13987,4 +14027,8 @@ Dark Mode
 }
 .is_dark .dashboard__table table thead {
   background: var(--whiteColor);
+}
+
+.dashboard__button__group a {
+  text-decoration: none;
 }
