@@ -10821,6 +10821,7 @@ Breadcrumb Area
   font-size: 18px;
   line-height: 22px;
   color: var(--blackColor2);
+  text-decoration: none;
 }
 .breadcrumb__inner ul li a:hover {
   color: var(--primaryColor);
