@@ -3,14 +3,15 @@ import DarkNight from "../../DarkNight";
 import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
-import counter1 from "../../../img/counter/counter__1.png";
-import counter2 from "../../../img/counter/counter__2.png";
-import counter3 from "../../../img/counter/counter__3.png";
-import counter4 from "../../../img/counter/counter__4.png";
 import DINavBar from "./DINavBar/DINavBar";
+import teacher1 from "../../../img/teacher/teacher__1.png";
+import teacher2 from "../../../img/teacher/teacher__2.png";
+import teacher3 from "../../../img/teacher/teacher__3.png";
+import teacher4 from "../../../img/teacher/teacher__4.png";
+import teacher5 from "../../../img/teacher/teacher__5.png";
 import { Link } from "react-router-dom";
 
-const InstructorDashboard = () => {
+const InstructorMessage = () => {
   return (
     <>
       <DarkNight />
@@ -26,17 +27,14 @@ const InstructorDashboard = () => {
               <div className="container-fluid full__width__padding">
                 <div className="row">
                   <div className="col-xl-3 col-lg-3 col-md-12">
-                    <div className="dashboard__inner sticky-top">
+                    <div className="dashboard__inner">
                       <div className="dashboard__nav__title">
-                        <h6>Welcome, Micle Obema</h6>
+                        <h6>Michle Obama</h6>
                       </div>
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link
-                              className="active"
-                              to="/dashboard"
-                            >
+                            <Link to="/dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -76,7 +74,7 @@ const InstructorDashboard = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/instructor-message">
+                            <Link className="active" to="/dashboard/instructor-message">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -178,7 +176,6 @@ const InstructorDashboard = () => {
                           </li>
                         </ul>
                       </div>
-
                       <div className="dashboard__nav__title mt-40">
                         <h6>Instructor</h6>
                       </div>
@@ -324,235 +321,248 @@ const InstructorDashboard = () => {
                     </div>
                   </div>
                   <div className="col-xl-9 col-lg-9 col-md-12">
-                    <div className="dashboard__content__wraper">
-                      <div className="dashboard__section__title">
-                        <h4>Dashboard</h4>
+                    <div className="dashboard__message__content__main">
+                      <div className="dashboard__message__content__main__title dashboard__message__content__main__title__2">
+                        <h3>Messages</h3>
                       </div>
-                      <div className="row">
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter1} alt="counter" />
+                      <div className="dashboard__meessage__wraper">
+                        <div className="row">
+                          <div className="col-xl-5 col-lg-6 col-md-12 col-12">
+                            <div className="dashboard__meessage">
+                              <div className="dashboard__meessage__chat">
+                                <h3>Chats</h3>
                               </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">27</span>+
-                                </div>
-                                <p>Enrolled Courses</p>
+                              <div className="dashboard__meessage__search">
+                                <button>
+                                  <i className="icofont-search-1"></i>
+                                </button>
+                                <input type="text" placeholder="Search" />
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter2} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">08</span>+
-                                </div>
-                                <p>Active Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter3} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">5</span>k
-                                </div>
-                                <p>Complete Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter4} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">14</span>+
-                                </div>
-                                <p>Total Courses</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter3} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">10</span>k
-                                </div>
-                                <p>Total Students</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-6 col-md-12 col-12">
-                          <div className="dashboard__single__counter">
-                            <div className="counterarea__text__wraper">
-                              <div className="counter__img">
-                                <img src={counter4} alt="counter" />
-                              </div>
-                              <div className="counter__content__wraper">
-                                <div className="counter__number">
-                                  <span className="counter">30,000</span>+
-                                </div>
-                                <p>Total Earning</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="dashboard__content__wraper">
-                      <div className="dashboard__section__title">
-                        <h4>Dashboard</h4>
-                        <a href="../course.html">See More...</a>
-                      </div>
-                      <div className="row">
-                        <div className="col-xl-12">
-                          <div className="dashboard__table table-responsive">
-                            <table>
-                              <thead>
-                                <tr>
-                                  <th>Course Name</th>
-                                  <th>Enrolled</th>
-                                  <th>Rating</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th>
-                                    <a href=" ">Javascript</a>
-                                  </th>
-                                  <td>1100</td>
-                                  <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
+                              <div className="dashboard__meessage__contact">
+                                <ul>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher1}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Rex Allen</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">12 min</span>
+                                      </div>
                                     </div>
-                                  </td>
-                                </tr>
-                                <tr className="dashboard__table__row">
-                                  <th>
-                                    <a href=" ">PHP</a>
-                                  </th>
-                                  <td>700</td>
-                                  <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher2}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Rex Allen</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">4:35pm</span>
+                                      </div>
                                     </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th>
-                                    <a href=" ">HTML</a>
-                                  </th>
-                                  <td>1350</td>
-                                  <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher3}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Julia Jhones</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">1:40pm</span>
+                                      </div>
                                     </div>
-                                  </td>
-                                </tr>
-                                <tr className="dashboard__table__row">
-                                  <th>
-                                    <a href=" ">Graphic</a>
-                                  </th>
-                                  <td>1266</td>
-                                  <td>
-                                    <div className="dashboard__table__star">
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <i className="icofont-star"></i>
-                                      <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        className="feather feather-star"
-                                      >
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                      </svg>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher4}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Anderson</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">3:20am</span>
+                                      </div>
                                     </div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher5}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Rex Allen</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">12 min</span>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher1}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Rex Allen</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">12 min</span>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher2}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Rex Allen</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">4:35pm</span>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div className="dashboard__meessage__contact__wrap">
+                                      <div className="dashboard__meessage__chat__img">
+                                        <span className="dashboard__meessage__dot online"></span>
+                                        <img
+                                          src={teacher1}
+                                          alt=""
+                                        />
+                                      </div>
+                                      <div className="dashboard__meessage__meta">
+                                        <h5>Julia Jhones</h5>
+                                        <p className="preview">Hey, How are you?</p>
+                                        <span className="chat__time">1:40pm</span>
+                                      </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-xl-7 col-lg-6 col-md-12 col-12">
+                            <div className="dashboard__meessage__content__wrap">
+                              <div className="dashboard__meessage__profile">
+                                <div className="dashboard__meessage__profile__img">
+                                  <img
+                                    src={teacher2}
+                                    alt=""
+                                  />
+                                </div>
+                                <div className="dashboard__meessage__profile__meta">
+                                  <h5>Bradshaw</h5>
+                                  <p>Stay at home, Stay safe</p>
+                                </div>
+                                <div className="dashboard__meessage__profile__chat__option">
+                                  <a href="admin-dashboard.html">
+                                    <i className="icofont-phone"></i>
+                                  </a>
+                                  <a href="admin-dashboard.html">
+                                    <i className="icofont-ui-video-chat"></i>
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="dashboard__meessage__sent">
+                                <ul>
+                                  <li>
+                                    <div className="dashboard__meessage__sent__item__img">
+                                      <img
+                                        src={teacher1}
+                                        alt=""
+                                      />
+                                    </div>
+                                    <div className="dashboard__meessage__sent__item__content">
+                                      <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing sed.
+                                      </p>
+                                      <span className="time">4:32 PM</span>
+                                      <p>Dolor sit amet consectetur</p>
+                                      <span className="time">4:30 PM</span>
+                                    </div>
+                                  </li>
+                                  <li className="dashboard__meessage__sent__item">
+                                    <div className="dashboard__meessage__sent__item__content">
+                                      <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing sed.
+                                      </p>
+                                      <span className="time">4:40 PM</span>
+                                      <p>Dolor sit amet consectetur</p>
+                                      <span className="time">4:42 PM</span>
+                                    </div>
+                                    <div className="dashboard__meessage__sent__item__img">
+                                      <img
+                                        src={teacher3}
+                                        alt=""
+                                      />
+                                    </div>
+                                  </li>
+                                  <li className="sent">
+                                    <div className="dashboard__meessage__sent__item__img">
+                                      <img
+                                        src={teacher4}
+                                        alt=""
+                                      />
+                                    </div>
+                                    <div className="dashboard__meessage__sent__item__content">
+                                      <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing sed.
+                                      </p>
+                                      <span className="time">5:01 PM</span>
+                                      <p>Dolor sit amet consectetur</p>
+                                      <span className="time">5:03 PM</span>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="dashboard__meessage__input">
+                                <input
+                                  type="text"
+                                  placeholder="Type something"
+                                />
+                                <i
+                                  className="icofont-attachment attachment"
+                                  aria-hidden="true"
+                                ></i>
+                                <button className="submit">
+                                  <i className="icofont-arrow-right"></i>
+                                </button>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -569,4 +579,4 @@ const InstructorDashboard = () => {
   );
 };
 
-export default InstructorDashboard;
+export default InstructorMessage;

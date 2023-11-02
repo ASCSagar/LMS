@@ -10,6 +10,13 @@ import AdminCourses from "./components/Dashboard/Admin/Course";
 import AdminReview from "./components/Dashboard/Admin/Review";
 import AdminQuiz from "./components/Dashboard/Admin/Quiz";
 import AdminSettings from "./components/Dashboard/Admin/Settings";
+import InstructorProfile from "./components/Dashboard/Instructor/Profile";
+import InstructorMessage from "./components/Dashboard/Instructor/Message";
+import InstructorWishlist from "./components/Dashboard/Instructor/Wishlist";
+import InstructorReview from "./components/Dashboard/Instructor/Review";
+import InstructorMyQuiz from "./components/Dashboard/Instructor/MyQuiz";
+import InstructorOrderHistory from "./components/Dashboard/Instructor/OrderHistory";
+import InstructorCourse from "./components/Dashboard/Instructor/Course";
 
 function App() {
   const router = createBrowserRouter([
@@ -29,6 +36,16 @@ function App() {
       path: "/dashboard",
       element: <InstructorDashboard />,
     },
+    { path: "/dashboard/instructor-profile", element: <InstructorProfile /> },
+    { path: "/dashboard/instructor-message", element: <InstructorMessage /> },
+    { path: "/dashboard/instructor-wishlist", element: <InstructorWishlist /> },
+    { path: "/dashboard/instructor-reviews", element: <InstructorReview /> },
+    { path: "/dashboard/instructor-my-quiz", element: <InstructorMyQuiz /> },
+    {
+      path: "/dashboard/instructor-order-history",
+      element: <InstructorOrderHistory />,
+    },
+    { path: "/dashboard/instructor-course", element: <InstructorCourse /> },
     {
       path: "/dashboard/admin-dashboard",
       element: <AdminDashboard />,
