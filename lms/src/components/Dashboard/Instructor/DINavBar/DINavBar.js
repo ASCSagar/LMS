@@ -1,5 +1,6 @@
 import React from "react";
 import dashboard2 from "../../../../img/dashbord/dashbord__2.jpg";
+import { Link } from "react-router-dom";
 
 const DINavBar = () => {
   return (
@@ -41,7 +42,7 @@ const DINavBar = () => {
                 </div>
                 <div className="dashboardarea__right">
                   <div className="dashboardarea__right__button">
-                    <a className="default__button" href="create-course.html">
+                    <Link className="default__button" to="/create-course">
                       Create a New Course
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +59,7 @@ const DINavBar = () => {
                         <line x1="5" y1="12" x2="19" y2="12"></line>
                         <polyline points="12 5 19 12 12 19"></polyline>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
