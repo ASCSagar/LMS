@@ -24,6 +24,7 @@ import InstructorAssignments from "./components/Dashboard/Instructor/Assignments
 import InstructorSettings from "./components/Dashboard/Instructor/Settings";
 import CourseDetails from "./components/Courses/CourseDetails";
 import InstructorDetails from "./components/Dashboard/Instructor/InstructorDetails";
+import CreateCourse from "./components/Courses/CreateCourse";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/create-course" element={<CreateCourse/>}/>
         <Route path="/courses" element={<Courses />} />
         <Route path="/course-details" element={<CourseDetails />} />
         <Route path="/instructor-details" element={<InstructorDetails />} />

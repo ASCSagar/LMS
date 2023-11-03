@@ -3075,6 +3075,11 @@ Hero Banner Area
 .hreobannerarea__button__2 {
   margin-top: 30px;
 }
+
+.hreobannerarea__button__2 a {
+  color: var(--whiteColor);
+}
+
 .hreobannerarea__button__2 .hreobannerarea__button__3 {
   background: var(--secondaryColor);
   border: 1px solid var(--secondaryColor);
@@ -12541,6 +12546,7 @@ Breadcrumb Area
   padding: 13px;
   width: 100%;
   border-radius: 6px;
+  text-decoration: none;
 }
 .create__course__bottom__button a:hover {
   background: var(--secondaryColor);
@@ -14097,5 +14103,13 @@ Dark Mode
 }
 
 .pricingarea__button a {
+  color: var(--whiteColor);
+}
+
+.create__course__button a {
+  color: var(--whiteColor);
+}
+
+.registerarea__button a {
   color: var(--whiteColor);
 }
