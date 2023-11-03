@@ -76,10 +76,10 @@ const DashboardIndex = () => {
                 <Link to="/dashboard/instructor-course">My Courses</Link>
               </li>
               <li>
-                <Link to="/dashboard/instructor-announcments">
+                <Link to="/dashboard/instructor-announcements">
                   Announcements
                 </Link>
-              </li>
+              </li> 
               <li>
                 <Link to="/dashboard/instructor-quiz-attempts">
                   Quiz Attempts
