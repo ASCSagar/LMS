@@ -434,7 +434,7 @@ const InstructorCourse = () => {
                                       <span>.Free</span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid2Small}
@@ -444,7 +444,7 @@ const InstructorCourse = () => {
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -460,12 +460,12 @@ const InstructorCourse = () => {
                               <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div class="gridarea__wraper">
                                   <div class="gridarea__img">
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       <img
                                         src={grid3}
                                         alt="grid"
                                       />
-                                    </a>
+                                    </Link>
                                     <div class="gridarea__small__button">
                                       <div class="grid__badge pink__color">
                                         Development
@@ -492,10 +492,10 @@ const InstructorCourse = () => {
                                     </div>
                                     <div class="gridarea__heading">
                                       <h3>
-                                        <a href="../course-details.html">
+                                        <Link to="/course-details">
                                           Minws course to under stand about
                                           solution
-                                        </a>
+                                        </Link>
                                       </h3>
                                     </div>
                                     <div class="gridarea__price">
@@ -506,7 +506,7 @@ const InstructorCourse = () => {
                                       </span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid3Small}
@@ -516,7 +516,7 @@ const InstructorCourse = () => {
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -532,12 +532,12 @@ const InstructorCourse = () => {
                               <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div class="gridarea__wraper">
                                   <div class="gridarea__img">
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       <img
                                         src={grid5}
                                         alt="grid"
                                       />
-                                    </a>
+                                    </Link>
                                     <div class="gridarea__small__button">
                                       <div class="grid__badge">New</div>
                                     </div>
@@ -562,10 +562,10 @@ const InstructorCourse = () => {
                                     </div>
                                     <div class="gridarea__heading">
                                       <h3>
-                                        <a href="../course-details.html">
+                                        <Link to="/course-details">
                                           Minws course to under stand about
                                           solution
-                                        </a>
+                                        </Link>
                                       </h3>
                                     </div>
                                     <div class="gridarea__price">
@@ -576,7 +576,7 @@ const InstructorCourse = () => {
                                       </span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid3Small}
@@ -586,8 +586,7 @@ const InstructorCourse = () => {
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
-
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -613,12 +612,12 @@ const InstructorCourse = () => {
                               <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div class="gridarea__wraper">
                                   <div class="gridarea__img">
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       <img
                                         src={grid5}
                                         alt="grid"
                                       />
-                                    </a>
+                                    </Link>
                                     <div class="gridarea__small__button">
                                       <div class="grid__badge">
                                         Data &amp; Tech
@@ -645,10 +644,10 @@ const InstructorCourse = () => {
                                     </div>
                                     <div class="gridarea__heading">
                                       <h3>
-                                        <a href="../course-details.html">
+                                        <Link to="/course-details">
                                           Foundation course to under stand about
                                           softwere
-                                        </a>
+                                        </Link>
                                       </h3>
                                     </div>
                                     <div class="gridarea__price">
@@ -659,7 +658,7 @@ const InstructorCourse = () => {
                                       </span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid1Small}
@@ -669,7 +668,7 @@ const InstructorCourse = () => {
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -726,7 +725,7 @@ const InstructorCourse = () => {
                                       <span>.Free</span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid2Small}
@@ -736,7 +735,7 @@ const InstructorCourse = () => {
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -761,12 +760,12 @@ const InstructorCourse = () => {
                               <div class="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div class="gridarea__wraper">
                                   <div class="gridarea__img">
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       <img
                                         src={grid1}
                                         alt="grid"
                                       />
-                                    </a>
+                                    </Link>
                                     <div class="gridarea__small__button">
                                       <div class="grid__badge">
                                         Data &amp; Tech
@@ -793,10 +792,10 @@ const InstructorCourse = () => {
                                     </div>
                                     <div class="gridarea__heading">
                                       <h3>
-                                        <a href="../course-details.html">
+                                        <Link to="/course-details">
                                           Foundation course to under stand about
                                           softwere
-                                        </a>
+                                        </Link>
                                       </h3>
                                     </div>
                                     <div class="gridarea__price">
@@ -807,7 +806,7 @@ const InstructorCourse = () => {
                                       </span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid1Small}
@@ -817,7 +816,7 @@ const InstructorCourse = () => {
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>
@@ -874,7 +873,7 @@ const InstructorCourse = () => {
                                       <span>.Free</span>
                                     </div>
                                     <div class="gridarea__bottom">
-                                      <a href="instructor-details.html">
+                                      <Link to="/instructor-details">
                                         <div class="gridarea__small__img">
                                           <img
                                             src={grid2Small}
@@ -884,7 +883,7 @@ const InstructorCourse = () => {
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
-                                      </a>
+                                      </Link>
                                       <div class="gridarea__star">
                                         <i class="icofont-star"></i>
                                         <i class="icofont-star"></i>

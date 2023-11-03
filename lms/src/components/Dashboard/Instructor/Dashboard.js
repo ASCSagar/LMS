@@ -422,7 +422,7 @@ const InstructorDashboard = () => {
                     <div className="dashboard__content__wraper">
                       <div className="dashboard__section__title">
                         <h4>Dashboard</h4>
-                        <a href="../course.html">See More...</a>
+                        <Link to="/courses">See More...</Link>
                       </div>
                       <div className="row">
                         <div className="col-xl-12">

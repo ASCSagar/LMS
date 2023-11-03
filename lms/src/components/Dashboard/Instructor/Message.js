@@ -485,12 +485,12 @@ const InstructorMessage = () => {
                                   <p>Stay at home, Stay safe</p>
                                 </div>
                                 <div className="dashboard__meessage__profile__chat__option">
-                                  <a href="admin-dashboard.html">
+                                  <Link to="/dashboard/admin-dashboard">
                                     <i className="icofont-phone"></i>
-                                  </a>
-                                  <a href="admin-dashboard.html">
+                                  </Link>
+                                  <Link to="/dashboard/admin-dashboard">
                                     <i className="icofont-ui-video-chat"></i>
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                               <div className="dashboard__meessage__sent">

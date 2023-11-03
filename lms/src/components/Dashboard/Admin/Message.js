@@ -114,7 +114,7 @@ const AdminMessage = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/dashboard/admin-review">
+                            <Link to="/dashboard/admin-review">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
