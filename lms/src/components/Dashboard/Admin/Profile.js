@@ -176,7 +176,7 @@ const AdminProfile = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to=" ">
+                            <Link to="/">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

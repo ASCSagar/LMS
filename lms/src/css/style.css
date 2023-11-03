@@ -12272,6 +12272,10 @@ Breadcrumb Area
   border-radius: 6px;
   margin-bottom: 60px;
 }
+
+.dashboard__Announcement__wraper div div a {
+  color: var(--whiteColor);
+}
 .dashboard__Announcement h5 {
   margin: 0;
   margin-bottom: 5px;
@@ -14031,5 +14035,9 @@ Dark Mode
 
 .dashboard__button__group a {
   text-decoration: none;
-  color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.pricingarea__button a {
+  color: var(--whiteColor);
 }

@@ -177,7 +177,7 @@ const AdminReview = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href=" ">
+                            <Link to="/">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -937,7 +937,6 @@ const AdminReview = () => {
                                           </div>
                                         </td>
                                       </tr>
-
                                       <tr>
                                         <th>Course: English</th>
                                         <td>

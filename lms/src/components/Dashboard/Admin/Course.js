@@ -159,11 +159,9 @@ const AdminCourses = () => {
                           </li>
                         </ul>
                       </div>
-
                       <div className="dashboard__nav__title mt-40">
                         <h6>user</h6>
                       </div>
-
                       <div className="dashboard__nav">
                         <ul>
                           <li>
@@ -187,7 +185,7 @@ const AdminCourses = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to=" ">
+                            <Link to="/">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -392,7 +390,6 @@ const AdminCourses = () => {
                                           </div>
                                         </div>
                                       </a>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -459,7 +456,6 @@ const AdminCourses = () => {
                                           </div>
                                         </div>
                                       </a>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -535,7 +531,6 @@ const AdminCourses = () => {
                                           </div>
                                         </div>
                                       </a>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -672,7 +667,6 @@ const AdminCourses = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__three"
@@ -734,7 +728,6 @@ const AdminCourses = () => {
                                           </div>
                                         </div>
                                       </a>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
