@@ -132,7 +132,7 @@ const AdminDashboard = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/dashboard/admin-review">
+                            <Link to="/dashboard/admin-review">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -371,9 +371,9 @@ const AdminDashboard = () => {
                               </div>
                               <div class="dashboard__popular__instructor__content">
                                 <h4>
-                                  <a href="../instructor-details.html">
+                                  <Link to="/instructor-details">
                                     Sanki Jho
-                                  </a>
+                                  </Link>
                                 </h4>
                                 <ul>
                                   <li>
@@ -397,9 +397,9 @@ const AdminDashboard = () => {
                               </div>
                               <div class="dashboard__popular__instructor__content">
                                 <h4>
-                                  <a href="../instructor-details.html">
+                                  <Link to="/instructor-details">
                                     Nidmjae Mollin
-                                  </a>
+                                  </Link>
                                 </h4>
                                 <ul>
                                   <li>
@@ -423,9 +423,9 @@ const AdminDashboard = () => {
                               </div>
                               <div class="dashboard__popular__instructor__content">
                                 <h4>
-                                  <a href="../instructor-details.html">
+                                  <Link to="/instructor-details">
                                     Nidmjae Mollin
-                                  </a>
+                                  </Link>
                                 </h4>
                                 <ul>
                                   <li>
@@ -449,9 +449,9 @@ const AdminDashboard = () => {
                               </div>
                               <div class="dashboard__popular__instructor__content">
                                 <h4>
-                                  <a href="../instructor-details.html">
+                                  <Link to="/instructor-details">
                                     Sndi Jac
-                                  </a>
+                                  </Link>
                                 </h4>
                                 <ul>
                                   <li>
@@ -475,9 +475,9 @@ const AdminDashboard = () => {
                               </div>
                               <div class="dashboard__popular__instructor__content">
                                 <h4>
-                                  <a href="../instructor-details.html">
+                                  <Link to="/instructor-details">
                                     Sndi Jac
-                                  </a>
+                                  </Link>
                                 </h4>
                                 <ul>
                                   <li>
@@ -507,26 +507,26 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={grid1} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Complete Python Zero to Hero in Python.
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                                 <div class="dashboard__recent__course__meta">
                                   <ul>
                                     <li>
                                       <i class="icofont-teacher"></i>{" "}
-                                      <a href="../instructor-details.html">
+                                      <Link to="/instructor-details">
                                         Jon Ron
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <i class="icofont-book-alt"></i> 9 Lesson
@@ -542,26 +542,26 @@ const AdminDashboard = () => {
                             </div>
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={grid2} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur.
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                                 <div class="dashboard__recent__course__meta">
                                   <ul>
                                     <li>
                                       <i class="icofont-teacher"></i>{" "}
-                                      <a href="../instructor-details.html">
+                                      <Link to="/instructor-details">
                                         Jon Ron
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <i class="icofont-book-alt"></i> 9 Lesson
@@ -577,25 +577,25 @@ const AdminDashboard = () => {
                             </div>
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={grid3} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       Voluptatum eius quo consectetur atque.
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                                 <div class="dashboard__recent__course__meta">
                                   <ul>
                                     <li>
                                       <i class="icofont-teacher"></i>{" "}
-                                      <a href="../instructor-details.html">
+                                      <Link to="/instructor-details">
                                         Jon Ron
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <i class="icofont-book-alt"></i> 5 Lesson
@@ -610,25 +610,25 @@ const AdminDashboard = () => {
                             </div>
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={grid4} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       Sapiente recusandae nemo sint hic iste!
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                                 <div class="dashboard__recent__course__meta">
                                   <ul>
                                     <li>
                                       <i class="icofont-teacher"></i>{" "}
-                                      <a href="../instructor-details.html">
+                                      <Link to="/instructor-details">
                                         Mini Ron
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
                                       <i class="icofont-book-alt"></i> 7 Lesson
@@ -653,19 +653,19 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={blog6} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur
                                       adipisicing elit. Libero velit quos dolore
                                       voluptatem...
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                               </div>
@@ -674,19 +674,19 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={blog7} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur
                                       adipisicing elit. Libero velit quos dolore
                                       aedgeds...
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                               </div>
@@ -695,19 +695,19 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={blog8} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur
                                       adipisicing elit. Libero velit quos dolore
                                       wdedged...
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                               </div>
@@ -716,19 +716,19 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={blog9} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur
                                       adipisicing elit. Libero velit quos dolore
                                       nidelsd...
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                               </div>
@@ -737,19 +737,19 @@ const AdminDashboard = () => {
                           <div class="dashboard__recent__course dashboard__notice__board">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
-                                <a href="../course-details.html">
+                                <Link to="/course-details">
                                   <img src={blog4} alt="grid" />
-                                </a>
+                                </Link>
                               </div>
                               <div class="dashboard__recent__course__content">
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
-                                    <a href="../course-details.html">
+                                    <Link to="/course-details">
                                       {" "}
                                       Lorem ipsum dolor sit amet consectetur
                                       adipisicing elit. Libero velit quos dolore
                                       midnied...
-                                    </a>
+                                    </Link>
                                   </h3>
                                 </div>
                               </div>

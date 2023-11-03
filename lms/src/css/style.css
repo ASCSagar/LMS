@@ -488,9 +488,9 @@ li {
   text-decoration: none !important;
 }
 
- .dashboard__form__button a {
+.dashboard__form__button a {
   color: white;
- }
+}
 
 .default__button:hover {
   background-color: var(--whiteColor);
@@ -6626,6 +6626,10 @@ Event
   text-align: center;
 }
 
+.event__Price__button a {
+  text-decoration: none;
+}
+
 .event__details__list ul li {
   display: flex;
   align-items: center;
@@ -7882,11 +7886,20 @@ Instructor Area
 .instructor__list > ul li .instructor__follow .instructor__icon li {
   margin: 0 5px;
 }
+
+.instructor__icon ul li a {
+  text-decoration: none;
+}
+
 .instructor__list > ul li .instructor__follow .instructor__icon li:first-child {
   margin-left: 0;
 }
 .instructor__list > ul li .instructor__button a {
   padding: 8px 40px;
+}
+
+.instructor__button a {
+  color: var(--whiteColor);
 }
 
 .online__course__wrap {
@@ -7921,6 +7934,10 @@ Instructor Area
   font-size: 30px;
   line-height: 1.2px;
   margin-bottom: 0;
+}
+
+.instructor__heading__2 a {
+  text-decoration: none;
 }
 
 /*------------------------------
@@ -8754,6 +8771,11 @@ Blog
 .blogsidebar__content__wraper__2 .get__touch__input a {
   padding: 13px 55px;
 }
+
+.get__touch__input a {
+  color: var(--whiteColor);
+}
+
 .blogsidebar__content__wraper__2 .populer__tag__list ul li {
   margin: 5px 5px;
 }
@@ -8767,6 +8789,11 @@ Blog
   text-align: center;
   text-transform: uppercase;
 }
+
+.populer__tag__list ul li a {
+  text-decoration: none;
+}
+
 .blogsidebar__content__wraper__2 .populer__tag__list ul li a:hover {
   color: var(--whiteColor);
   background: var(--primaryColor);
@@ -8794,6 +8821,11 @@ Blog
   display: inline-block;
   border-radius: var(--borderRadius);
 }
+
+.follow__icon ul li a {
+  text-decoration: none;
+}
+
 .blogsidebar__content__wraper__2 .follow__icon ul li a:hover {
   color: var(--whiteColor);
   background: var(--primaryColor);
@@ -8992,6 +9024,11 @@ Blog
   line-height: 25px;
   margin: 0;
 }
+
+.author__name h6 a {
+  text-decoration: none;
+}
+
 .blog__details__content__wraper
   .blog__details__comment
   .blog__details__comment__inner
@@ -9085,6 +9122,7 @@ Blog
   border: 1px solid var(--borderColor2);
   padding: 9px 12px;
   border-radius: var(--borderRadius);
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .blog__details__tag ul li a {
@@ -9267,6 +9305,7 @@ Blog
 }
 .blog__details__button a {
   padding: 13px 70px;
+  color: var(--whiteColor);
 }
 
 @media (min-width: 992px) and (max-width: 1365px) {
@@ -9607,6 +9646,7 @@ Course
   margin-right: 20px;
   border-radius: var(--borderRadius);
   border: 1px solid var(--primaryColor);
+  text-decoration: none;
 }
 .course__button a:hover {
   background-color: var(--whiteColor);
@@ -9810,13 +9850,17 @@ Course
   font-size: 14px;
 }
 
+.scc__meta a {
+  text-decoration: none;
+}
+
 .content__cirriculum__wrap .accordion-item {
   margin-bottom: 25px;
   border: 1px solid var(--borderColor);
 }
 
 .course__tap__wrap {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 .course__tap__wrap li {
   border-right: 2px solid var(--borderColor);
@@ -9921,6 +9965,10 @@ Course
   h6
   a:hover {
   color: var(--primaryColor);
+}
+
+.course__details__populer__content h6 a {
+  text-decoration: none;
 }
 
 .review__box {
@@ -10221,6 +10269,11 @@ Course
   font-size: 14px;
   color: var(--contentColor);
 }
+
+.course__summery__item span a {
+  text-decoration: none;
+}
+
 .course__summery__lists li .course__summery__item .sb_content {
   background: var(--borderColor);
   padding: 6px 10px;
@@ -10235,6 +10288,11 @@ Course
 .course__summery__button {
   text-align: center;
 }
+
+.course__summery__button a {
+  color: var(--whiteColor);
+}
+
 .course__summery__button span {
   font-size: 13px;
   color: var(--contentColor);

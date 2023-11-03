@@ -356,9 +356,9 @@ const InstructorWishlist = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href="../course-details.html">
+                                  <Link to="/course-details">
                                     Nidnies course to under stand about softwere
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price green__color">
@@ -366,7 +366,7 @@ const InstructorWishlist = () => {
                                 <span>.Free</span>
                               </div>
                               <div className="gridarea__bottom">
-                                <a href="instructor-details.html">
+                                <Link to="/instructor-details">
                                   <div className="gridarea__small__img">
                                     <img
                                       src={grid2Small}
@@ -376,7 +376,7 @@ const InstructorWishlist = () => {
                                       <h6>Rinis Jhon</h6>
                                     </div>
                                   </div>
-                                </a>
+                                </Link>
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
@@ -392,9 +392,9 @@ const InstructorWishlist = () => {
                         <div className="col-xl-4 col-md-6 col-12">
                           <div className="gridarea__wraper">
                             <div className="gridarea__img">
-                              <a href="../course-details.html">
+                              <Link to="/course-details">
                                 <img src={grid3} alt="grid" />
-                              </a>
+                              </Link>
                               <div className="gridarea__small__button">
                                 <div className="grid__badge pink__color">
                                   Development
@@ -420,9 +420,9 @@ const InstructorWishlist = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href="../course-details.html">
+                                  <Link to="/course-details">
                                     Minws course to under stand about solution
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price">
@@ -433,7 +433,7 @@ const InstructorWishlist = () => {
                                 </span>
                               </div>
                               <div className="gridarea__bottom">
-                                <a href="instructor-details.html">
+                                <Link to="/instructor-details">
                                   <div className="gridarea__small__img">
                                     <img
                                       src={grid3Small}
@@ -443,7 +443,7 @@ const InstructorWishlist = () => {
                                       <h6>Micle Jhon</h6>
                                     </div>
                                   </div>
-                                </a>
+                                </Link>
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
@@ -459,9 +459,9 @@ const InstructorWishlist = () => {
                         <div className="col-xl-4 col-md-6 col-12">
                           <div className="gridarea__wraper">
                             <div className="gridarea__img">
-                              <a href="../course-details.html">
+                              <Link to="/course-details">
                                 <img src={grid3} alt="grid" />
-                              </a>
+                              </Link>
                               <div className="gridarea__small__button">
                                 <div className="grid__badge pink__color">
                                   Development
@@ -487,9 +487,9 @@ const InstructorWishlist = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href="../course-details.html">
+                                  <Link to="/course-details">
                                     Minws course to under stand about solution
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price">
@@ -500,7 +500,7 @@ const InstructorWishlist = () => {
                                 </span>
                               </div>
                               <div className="gridarea__bottom">
-                                <a href="instructor-details.html">
+                                <Link to="/instructor-details">
                                   <div className="gridarea__small__img">
                                     <img
                                       src={grid3Small}
@@ -510,8 +510,7 @@ const InstructorWishlist = () => {
                                       <h6>Micle Jhon</h6>
                                     </div>
                                   </div>
-                                </a>
-
+                                </Link>
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
@@ -527,9 +526,9 @@ const InstructorWishlist = () => {
                         <div className="col-xl-4 col-md-6 col-12">
                           <div className="gridarea__wraper">
                             <div className="gridarea__img">
-                              <a href="../course-details.html">
+                              <Link to="/course-details">
                                 <img src={grid5} alt="grid" />
-                              </a>
+                              </Link>
                               <div className="gridarea__small__button">
                                 <div className="grid__badge orange__color">
                                   Data &amp; Tech
@@ -555,9 +554,9 @@ const InstructorWishlist = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href="../course-details.html">
+                                  <Link to="/course-details">
                                     Data course to under stand about solution
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price">
@@ -568,7 +567,7 @@ const InstructorWishlist = () => {
                                 </span>
                               </div>
                               <div className="gridarea__bottom">
-                                <a href="instructor-details.html">
+                                <Link to="/instructor-details">
                                   <div className="gridarea__small__img">
                                     <img
                                       src={grid3Small}
@@ -578,7 +577,7 @@ const InstructorWishlist = () => {
                                       <h6>Micle Robin</h6>
                                     </div>
                                   </div>
-                                </a>
+                                </Link>
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
@@ -594,9 +593,9 @@ const InstructorWishlist = () => {
                         <div className="col-xl-4 col-md-6 col-12">
                           <div className="gridarea__wraper">
                             <div className="gridarea__img">
-                              <a href="../course-details.html">
+                              <Link to="/course-details">
                                 <img src={grid4} alt="grid" />
-                              </a>
+                              </Link>
                               <div className="gridarea__small__button">
                                 <div className="grid__badge pink__color">
                                   Development
@@ -622,9 +621,9 @@ const InstructorWishlist = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href="../course-details.html">
+                                  <Link to="/course-details">
                                     Minws course to under stand about solution
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price">
@@ -635,7 +634,7 @@ const InstructorWishlist = () => {
                                 </span>
                               </div>
                               <div className="gridarea__bottom">
-                                <a href="instructor-details.html">
+                                <Link to="/instructor-details">
                                   <div className="gridarea__small__img">
                                     <img
                                       src={grid3Small}
@@ -645,7 +644,7 @@ const InstructorWishlist = () => {
                                       <h6>Micle Jhon</h6>
                                     </div>
                                   </div>
-                                </a>
+                                </Link>
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
