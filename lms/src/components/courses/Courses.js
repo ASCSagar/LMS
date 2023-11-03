@@ -214,7 +214,6 @@ const Courses = () => {
                     </ul>
                   </div>
                 </div>
-
                 <div className="course__sidebar__wraper" data-aos="fade-up">
                   <div className="course__heading">
                     <h5>Skill Level</h5>
@@ -513,7 +512,6 @@ const Courses = () => {
                                   </div>
                                 </div>
                               </a>
-
                               <div className="gridarea__star">
                                 <i className="icofont-star"></i>
                                 <i className="icofont-star"></i>
@@ -583,7 +581,6 @@ const Courses = () => {
                                   </div>
                                 </div>
                               </a>
-
                               <div className="gridarea__star">
                                 <i className="icofont-star"></i>
                                 <i className="icofont-star"></i>
@@ -595,7 +592,6 @@ const Courses = () => {
                           </div>
                         </div>
                       </div>
-
                       <div
                         className="col-xl-4 col-lg-6 col-md-12 col-sm-6 col-12"
                         data-aos="fade-up"
@@ -654,7 +650,6 @@ const Courses = () => {
                                   </div>
                                 </div>
                               </a>
-
                               <div className="gridarea__star">
                                 <i className="icofont-star"></i>
                                 <i className="icofont-star"></i>
@@ -723,7 +718,6 @@ const Courses = () => {
                                   </div>
                                 </div>
                               </a>
-
                               <div className="gridarea__star">
                                 <i className="icofont-star"></i>
                                 <i className="icofont-star"></i>
@@ -858,7 +852,6 @@ const Courses = () => {
                                   </div>
                                 </div>
                               </a>
-
                               <div className="gridarea__star">
                                 <i className="icofont-star"></i>
                                 <i className="icofont-star"></i>
@@ -872,7 +865,6 @@ const Courses = () => {
                       </div>
                     </div>
                   </div>
-
                   <div
                     className="tab-pane fade"
                     id="projects__two"
@@ -931,7 +923,6 @@ const Courses = () => {
                                 </div>
                               </div>
                             </a>
-
                             <div className="gridarea__star">
                               <i className="icofont-star"></i>
                               <i className="icofont-star"></i>
@@ -950,7 +941,6 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-
                     <div
                       className="gridarea__wraper gridarea__wraper__2 gridarea__course__list"
                       data-aos="fade-up"
@@ -1003,7 +993,6 @@ const Courses = () => {
                                 </div>
                               </div>
                             </a>
-
                             <div className="gridarea__star">
                               <i className="icofont-star"></i>
                               <i className="icofont-star"></i>
@@ -1012,7 +1001,6 @@ const Courses = () => {
                               <span>(44)</span>
                             </div>
                           </div>
-
                           <div className="gridarea__details">
                             <a href="course-details.html">
                               Know Details
@@ -1022,7 +1010,6 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-
                     <div
                       className="gridarea__wraper gridarea__wraper__2 gridarea__course__list"
                       data-aos="fade-up"
@@ -1077,7 +1064,6 @@ const Courses = () => {
                                 </div>
                               </div>
                             </a>
-
                             <div className="gridarea__star">
                               <i className="icofont-star"></i>
                               <i className="icofont-star"></i>
@@ -1086,7 +1072,6 @@ const Courses = () => {
                               <span>(44)</span>
                             </div>
                           </div>
-
                           <div className="gridarea__details">
                             <a href="course-details.html">
                               Know Details
@@ -1096,7 +1081,6 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-
                     <div
                       className="gridarea__wraper gridarea__wraper__2 gridarea__course__list"
                       data-aos="fade-up"
@@ -1152,7 +1136,6 @@ const Courses = () => {
                                 </div>
                               </div>
                             </a>
-
                             <div className="gridarea__star">
                               <i className="icofont-star"></i>
                               <i className="icofont-star"></i>
@@ -1171,7 +1154,6 @@ const Courses = () => {
                         </div>
                       </div>
                     </div>
-
                     <div
                       className="gridarea__wraper gridarea__wraper__2 gridarea__course__list"
                       data-aos="fade-up"
@@ -1226,7 +1208,6 @@ const Courses = () => {
                                 </div>
                               </div>
                             </a>
-
                             <div className="gridarea__star">
                               <i className="icofont-star"></i>
                               <i className="icofont-star"></i>
@@ -1235,7 +1216,6 @@ const Courses = () => {
                               <span>(44)</span>
                             </div>
                           </div>
-
                           <div className="gridarea__details">
                             <a href="course-details.html">
                               Know Details
@@ -1247,7 +1227,6 @@ const Courses = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="main__pagination__wrapper" data-aos="fade-up">
                   <ul className="main__page__pagination">
                     <li>

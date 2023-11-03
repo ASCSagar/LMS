@@ -181,7 +181,7 @@ const AdminMessage = () => {
                             </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to="/">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -198,7 +198,7 @@ const AdminMessage = () => {
                                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
                               </svg>
                               Logout
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>

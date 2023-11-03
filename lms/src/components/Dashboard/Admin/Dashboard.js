@@ -199,7 +199,7 @@ const AdminDashboard = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to=" ">
+                            <Link to="/">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -504,7 +504,6 @@ const AdminDashboard = () => {
                             <h4>Recent Course</h4>
                             <Link to="/courses">See More...</Link>
                           </div>
-
                           <div class="dashboard__recent__course">
                             <div class="dashboard__recent__course__single">
                               <div class="dashboard__recent__course__img">
@@ -601,7 +600,6 @@ const AdminDashboard = () => {
                                     <li>
                                       <i class="icofont-book-alt"></i> 5 Lesson
                                     </li>
-
                                     <li>
                                       <i class="icofont-clock-time"></i> 1 hr 30
                                       min
@@ -620,7 +618,6 @@ const AdminDashboard = () => {
                                 <div class="dashboard__recent__course__heading">
                                   <h3>
                                     <a href="../course-details.html">
-                                      {" "}
                                       Sapiente recusandae nemo sint hic iste!
                                     </a>
                                   </h3>

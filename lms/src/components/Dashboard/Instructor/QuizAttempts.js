@@ -3,10 +3,10 @@ import DarkNight from "../../DarkNight";
 import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
-import DANavBar from "./DANavBar/DANavBar";
+import DINavBar from "./DINavBar/DINavBar";
 import { Link } from "react-router-dom";
 
-const AdminQuiz = () => {
+const InstructorQuizAttempts = () => {
   return (
     <>
       <DarkNight />
@@ -14,22 +14,22 @@ const AdminQuiz = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div class="theme__shadow__circle"></div>
-          <div class="theme__shadow__circle shadow__right"></div>
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
-            <DANavBar/>
+            <DINavBar />
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">
                   <div className="col-xl-3 col-lg-3 col-md-12">
-                    <div className="dashboard__inner sticky-top">
+                    <div className="dashboard__inner">
                       <div className="dashboard__nav__title">
-                        <h6>Welcome, Micle Obema</h6>
+                        <h6>Michle Obama</h6>
                       </div>
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link to="/dashboard/admin-dashboard">
+                            <Link to="/dashboard/instructor-dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -49,7 +49,7 @@ const AdminQuiz = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-profile">
+                            <Link to="/dashboard/instructor-profile">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -69,7 +69,7 @@ const AdminQuiz = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-message">
+                            <Link to="/dashboard/instructor-message">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -88,10 +88,9 @@ const AdminQuiz = () => {
                               Message
                             </Link>
                             <span className="dashboard__label">12</span>
-                            <span className="dashboard__label">12</span>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-courses">
+                            <Link to="/dashboard/instructor-wishlist">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -106,11 +105,11 @@ const AdminQuiz = () => {
                               >
                                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
                               </svg>
-                              Courses
+                              Wishlist
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-review">
+                            <Link to="/dashboard/instructor-reviews">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -129,10 +128,7 @@ const AdminQuiz = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link
-                              className="active"
-                              to="/dashboard/admin-quiz"
-                            >
+                            <Link to="/dashboard/instructor-my-quiz">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -149,7 +145,125 @@ const AdminQuiz = () => {
                                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                                 <line x1="12" y1="17" x2="12.01" y2="17"></line>
                               </svg>
-                              Quiz Attempts
+                              My Quiz Attempts
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-order-history">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-shopping-bag"
+                              >
+                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <path d="M16 10a4 4 0 0 1-8 0"></path>
+                              </svg>
+                              Order History
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="dashboard__nav__title mt-40">
+                        <h6>Instructor</h6>
+                      </div>
+                      <div className="dashboard__nav">
+                        <ul>
+                          <li>
+                            <Link to="/dashboard/instructor-course">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-monitor"
+                              >
+                                <rect
+                                  x="2"
+                                  y="3"
+                                  width="20"
+                                  height="14"
+                                  rx="2"
+                                  ry="2"
+                                ></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                              </svg>
+                              My Course
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dshboard/instructor-announcments">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-volume-1"
+                              >
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                              </svg>
+                              Announcments
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="active"
+                              to="/dashboard/instructor-quiz-attempts"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-message-square"
+                              >
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                              </svg>
+                              Quiz Attempt
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-assignments">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-volume-1"
+                              >
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                              </svg>
+                              Assignments
                             </Link>
                           </li>
                         </ul>
@@ -160,7 +274,7 @@ const AdminQuiz = () => {
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link to="/dashboard/admin-settings">
+                           <Link to="/dashboard/instructor-settings">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -206,7 +320,7 @@ const AdminQuiz = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12">
                     <div className="dashboard__content__wraper">
                       <div className="dashboard__section__title">
-                        <h4>My Quiz Attempts</h4>
+                        <h4>Quiz Attempts</h4>
                       </div>
                       <div className="row">
                         <div className="col-xl-6 col-lg-4 col-md-4 col-12">
@@ -273,7 +387,7 @@ const AdminQuiz = () => {
                                   <th>Qus</th>
                                   <th>TM</th>
                                   <th>CA</th>
-                                  <th>Status</th>
+                                  <th>Result</th>
                                   <th></th>
                                 </tr>
                               </thead>
@@ -296,9 +410,7 @@ const AdminQuiz = () => {
                                     <p>4</p>
                                   </td>
                                   <td>
-                                    <span className="dashboard__td dashboard__td--running">
-                                      Running
-                                    </span>
+                                    <span className="dashboard__td">Pass</span>
                                   </td>
                                   <td>
                                     <div className="dashboard__button__group">
@@ -325,168 +437,6 @@ const AdminQuiz = () => {
                                       </a>
                                       <a
                                         className="dashboard__small__btn__2 dashboard__small__btn__3"
-                                        href=" "
-                                      >
-                                        <svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          className="feather feather-trash-2"
-                                        >
-                                          <polyline points="3 6 5 6 21 6"></polyline>
-                                          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                                          <line
-                                            x1="10"
-                                            y1="11"
-                                            x2="10"
-                                            y2="17"
-                                          ></line>
-                                          <line
-                                            x1="14"
-                                            y1="11"
-                                            x2="14"
-                                            y2="17"
-                                          ></line>
-                                        </svg>{" "}
-                                        Delete
-                                      </a>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr className="dashboard__table__row">
-                                  <th>
-                                    <p>December 26, 2023</p>
-                                    <span>Write a on yourself using the 5</span>
-                                    <p>
-                                      Student: <a href=" ">Mice Jerry</a>
-                                    </p>
-                                  </th>
-                                  <td>
-                                    <p>4</p>
-                                  </td>
-                                  <td>
-                                    <p>8</p>
-                                  </td>
-                                  <td>
-                                    <p>4</p>
-                                  </td>
-                                  <td>
-                                    <span className="dashboard__td dashboard__td--over">
-                                      Time Over
-                                    </span>
-                                  </td>
-                                  <td>
-                                    <div className="dashboard__button__group">
-                                      <a
-                                        className="dashboard__small__btn__2"
-                                        href=" "
-                                      >
-                                        <svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          className="feather feather-edit"
-                                        >
-                                          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                                          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                                        </svg>{" "}
-                                        Edit
-                                      </a>
-                                      <a
-                                        className="dashboard__small__btn__2  dashboard__small__btn__3"
-                                        href=" "
-                                      >
-                                        <svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          className="feather feather-trash-2"
-                                        >
-                                          <polyline points="3 6 5 6 21 6"></polyline>
-                                          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                                          <line
-                                            x1="10"
-                                            y1="11"
-                                            x2="10"
-                                            y2="17"
-                                          ></line>
-                                          <line
-                                            x1="14"
-                                            y1="11"
-                                            x2="14"
-                                            y2="17"
-                                          ></line>
-                                        </svg>{" "}
-                                        Delete
-                                      </a>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th>
-                                    <p>December 26, 2023</p>
-                                    <span>Write a on yourself using the 5</span>
-                                    <p>
-                                      Student: <a href=" ">Mice Jerry</a>
-                                    </p>
-                                  </th>
-                                  <td>
-                                    <p>4</p>
-                                  </td>
-                                  <td>
-                                    <p>8</p>
-                                  </td>
-                                  <td>
-                                    <p>4</p>
-                                  </td>
-                                  <td>
-                                    <span className="dashboard__td dashboard__td--comming">
-                                      Coming
-                                    </span>
-                                  </td>
-                                  <td>
-                                    <div className="dashboard__button__group">
-                                      <a
-                                        className="dashboard__small__btn__2"
-                                        href=" "
-                                      >
-                                        <svg
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="24"
-                                          height="24"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          stroke-width="2"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round"
-                                          className="feather feather-edit"
-                                        >
-                                          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                                          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                                        </svg>{" "}
-                                        Edit
-                                      </a>
-                                      <a
-                                        className="dashboard__small__btn__2  dashboard__small__btn__3"
                                         href=" "
                                       >
                                         <svg
@@ -602,6 +552,168 @@ const AdminQuiz = () => {
                                     </div>
                                   </td>
                                 </tr>
+                                <tr>
+                                  <th>
+                                    <p>December 26, 2023</p>
+                                    <span>Write a on yourself using the 5</span>
+                                    <p>
+                                      Student: <a href=" ">Mice Jerry</a>
+                                    </p>
+                                  </th>
+                                  <td>
+                                    <p>4</p>
+                                  </td>
+                                  <td>
+                                    <p>8</p>
+                                  </td>
+                                  <td>
+                                    <p>4</p>
+                                  </td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td--over">
+                                      Time Over
+                                    </span>
+                                  </td>
+                                  <td>
+                                    <div className="dashboard__button__group">
+                                      <a
+                                        className="dashboard__small__btn__2"
+                                        href=" "
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          className="feather feather-edit"
+                                        >
+                                          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                                        </svg>{" "}
+                                        Edit
+                                      </a>
+                                      <a
+                                        className="dashboard__small__btn__2  dashboard__small__btn__3"
+                                        href=" "
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          className="feather feather-trash-2"
+                                        >
+                                          <polyline points="3 6 5 6 21 6"></polyline>
+                                          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                          <line
+                                            x1="10"
+                                            y1="11"
+                                            x2="10"
+                                            y2="17"
+                                          ></line>
+                                          <line
+                                            x1="14"
+                                            y1="11"
+                                            x2="14"
+                                            y2="17"
+                                          ></line>
+                                        </svg>{" "}
+                                        Delete
+                                      </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr className="dashboard__table__row">
+                                  <th>
+                                    <p>December 26, 2023</p>
+                                    <span>Write a on yourself using the 5</span>
+                                    <p>
+                                      Student: <a href=" ">Mice Jerry</a>
+                                    </p>
+                                  </th>
+                                  <td>
+                                    <p>4</p>
+                                  </td>
+                                  <td>
+                                    <p>8</p>
+                                  </td>
+                                  <td>
+                                    <p>4</p>
+                                  </td>
+                                  <td>
+                                    <span className="dashboard__td dashboard__td--comming">
+                                      Processing
+                                    </span>
+                                  </td>
+                                  <td>
+                                    <div className="dashboard__button__group">
+                                      <a
+                                        className="dashboard__small__btn__2"
+                                        href=" "
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          className="feather feather-edit"
+                                        >
+                                          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                                        </svg>{" "}
+                                        Edit
+                                      </a>
+                                      <a
+                                        className="dashboard__small__btn__2  dashboard__small__btn__3"
+                                        href=" "
+                                      >
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="24"
+                                          height="24"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          className="feather feather-trash-2"
+                                        >
+                                          <polyline points="3 6 5 6 21 6"></polyline>
+                                          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                          <line
+                                            x1="10"
+                                            y1="11"
+                                            x2="10"
+                                            y2="17"
+                                          ></line>
+                                          <line
+                                            x1="14"
+                                            y1="11"
+                                            x2="14"
+                                            y2="17"
+                                          ></line>
+                                        </svg>{" "}
+                                        Delete
+                                      </a>
+                                    </div>
+                                  </td>
+                                </tr>
                               </tbody>
                             </table>
                           </div>
@@ -620,4 +732,4 @@ const AdminQuiz = () => {
   );
 };
 
-export default AdminQuiz;
+export default InstructorQuizAttempts;

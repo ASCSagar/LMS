@@ -1,12 +1,12 @@
 import React from "react";
+import Footer from "../../Footer";
 import DarkNight from "../../DarkNight";
 import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
-import Footer from "../../Footer";
-import DANavBar from "./DANavBar/DANavBar";
+import DINavBar from "./DINavBar/DINavBar";
 import { Link } from "react-router-dom";
 
-const AdminSettings = () => {
+const InstructorSettings = () => {
   return (
     <>
       <DarkNight />
@@ -14,22 +14,22 @@ const AdminSettings = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div class="theme__shadow__circle"></div>
-          <div class="theme__shadow__circle shadow__right"></div>
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
-            <DANavBar />
+            <DINavBar />
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">
                   <div className="col-xl-3 col-lg-3 col-md-12">
-                    <div className="dashboard__inner sticky-top">
+                    <div className="dashboard__inner">
                       <div className="dashboard__nav__title">
-                        <h6>Welcome, Micle Obema</h6>
+                        <h6>Michle Obama</h6>
                       </div>
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link to="/dashboard/admin-dashboard">
+                            <Link to="/dashboard/instructor-dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -49,7 +49,7 @@ const AdminSettings = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-profile">
+                            <Link to="/dashboard/instructor-profile">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -69,7 +69,7 @@ const AdminSettings = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-message">
+                            <Link to="/dashboard/instructor-message">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -88,10 +88,9 @@ const AdminSettings = () => {
                               Message
                             </Link>
                             <span className="dashboard__label">12</span>
-                            <span className="dashboard__label">12</span>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-courses">
+                            <Link to="/dashboard/instructor-wishlist">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -106,11 +105,11 @@ const AdminSettings = () => {
                               >
                                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
                               </svg>
-                              Courses
+                              Wishlist
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-review">
+                            <Link to="/dashboard/instructor-reviews">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -129,7 +128,7 @@ const AdminSettings = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="/dashboard/admin-quiz">
+                            <Link to="/dashboard/instructor-my-quiz">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -146,7 +145,122 @@ const AdminSettings = () => {
                                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                                 <line x1="12" y1="17" x2="12.01" y2="17"></line>
                               </svg>
-                              Quiz Attempts
+                              My Quiz Attempts
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-order-history">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-shopping-bag"
+                              >
+                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <path d="M16 10a4 4 0 0 1-8 0"></path>
+                              </svg>
+                              Order History
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="dashboard__nav__title mt-40">
+                        <h6>Instructor</h6>
+                      </div>
+                      <div className="dashboard__nav">
+                        <ul>
+                          <li>
+                            <Link to="/dashboard/instructor-course">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-monitor"
+                              >
+                                <rect
+                                  x="2"
+                                  y="3"
+                                  width="20"
+                                  height="14"
+                                  rx="2"
+                                  ry="2"
+                                ></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                              </svg>
+                              My Course
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-announcments">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-volume-1"
+                              >
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                              </svg>
+                              Announcments
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-quiz-attempts">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-message-square"
+                              >
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                              </svg>
+                              Quiz Attempt
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/dashboard/instructor-assignments">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                className="feather feather-volume-1"
+                              >
+                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                              </svg>
+                              Assignments
                             </Link>
                           </li>
                         </ul>
@@ -157,10 +271,7 @@ const AdminSettings = () => {
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link
-                              className="active"
-                              to="/dashboard/admin-settings"
-                            >
+                            <Link className="active" to="/dashboard/instructor-settings">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -275,7 +386,7 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>First Name</label>
+                                        <label for="#">First Name</label>
                                         <input type="text" placeholder="John" />
                                       </div>
                                     </div>
@@ -283,7 +394,7 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>Last Name</label>
+                                        <label for="#">Last Name</label>
                                         <input type="text" placeholder="Due" />
                                       </div>
                                     </div>
@@ -291,10 +402,10 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>User Name</label>
+                                        <label for="#">User Name</label>
                                         <input
                                           type="text"
-                                          placeholder="Ntaden Mic"
+                                          placeholder="johndue"
                                         />
                                       </div>
                                     </div>
@@ -302,7 +413,7 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>Phone Number</label>
+                                        <label for="#">Phone Number</label>
                                         <input
                                           type="text"
                                           placeholder="+1-202-555-0174"
@@ -313,7 +424,7 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>Skill/Occupation</label>
+                                        <label for="#">Skill/Occupation</label>
                                         <input
                                           type="text"
                                           placeholder="Full Stack Developer"
@@ -324,7 +435,9 @@ const AdminSettings = () => {
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>Display Name Publicly As</label>
+                                        <label for="#">
+                                          Display Name Publicly As
+                                        </label>
                                         <input type="text" placeholder="John" />
                                       </div>
                                     </div>
@@ -332,10 +445,10 @@ const AdminSettings = () => {
                                   <div className="col-xl-12">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
-                                        <label>Bio</label>
+                                        <label for="#">Bio</label>
                                         <textarea
-                                          name="bio__text"
-                                          id="bio__text"
+                                          name=""
+                                          id=""
                                           cols="30"
                                           rows="10"
                                         >
@@ -366,7 +479,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>Current Password</label>
+                                    <label for="#">Current Password</label>
                                     <input
                                       type="text"
                                       placeholder="Current password"
@@ -377,7 +490,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>New Password</label>
+                                    <label for="#">New Password</label>
                                     <input
                                       type="text"
                                       placeholder="New Password"
@@ -388,7 +501,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>Re-Type New Password</label>
+                                    <label for="#">Re-Type New Password</label>
                                     <input
                                       type="text"
                                       placeholder="Re-Type New Password"
@@ -415,7 +528,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>
+                                    <label for="#">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -442,7 +555,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>
+                                    <label for="#">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -469,7 +582,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>
+                                    <label for="#">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -503,7 +616,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>
+                                    <label for="#">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -549,7 +662,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
-                                    <label>
+                                    <label for="#">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -576,7 +689,7 @@ const AdminSettings = () => {
                               <div className="col-xl-12">
                                 <div className="dashboard__form__button">
                                   <a className="default__button" href=" ">
-                                    Update Password
+                                    Update Social
                                   </a>
                                 </div>
                               </div>
@@ -597,4 +710,4 @@ const AdminSettings = () => {
   );
 };
 
-export default AdminSettings;
+export default InstructorSettings;

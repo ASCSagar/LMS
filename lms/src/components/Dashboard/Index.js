@@ -76,7 +76,7 @@ const DashboardIndex = () => {
                 <Link to="/dashboard/instructor-course">My Courses</Link>
               </li>
               <li>
-                <Link to="dashboard/instructor-announcments">
+                <Link to="/dashboard/instructor-announcments">
                   Announcements
                 </Link>
               </li>
