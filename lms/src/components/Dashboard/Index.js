@@ -101,35 +101,35 @@ const DashboardIndex = () => {
             </Link>
             <ul className="headerarea__submenu--third">
               <li>
-                <Link to="dashboard/student-dashboard.html">Dashboard</Link>
+                <Link to="/dashboard/student-dashboard">Dashboard</Link>
               </li>
               <li>
-                <Link to="dashboard/student-profile.html">Profile</Link>
+                <Link to="/dashboard/student-profile">Profile</Link>
               </li>
               <li>
-                <Link to="dashboard/student-message.html">Message</Link>
+                <Link to="/dashboard/student-message">Message</Link>
               </li>
               <li>
-                <Link to="dashboard/student-enrolled-courses.html">
+                <Link to="/dashboard/student-enrolled-courses">
                   Enrolled Courses
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/student-wishlist.html">Wishlist</Link>
+                <Link to="/dashboard/student-wishlist">Wishlist</Link>
               </li>
               <li>
-                <Link to="dashboard/student-reviews.html">Review</Link>
+                <Link to="/dashboard/student-reviews">Review</Link>
               </li>
               <li>
-                <Link to="dashboard/student-my-quiz-attempts.html">
+                <Link to="/dashboard/student-my-quiz-attempts">
                   My Quiz
                 </Link>
               </li>
               <li>
-                <Link to="dashboard/student-assignments.html">Assignment</Link>
+                <Link to="/dashboard/student-assignments">Assignment</Link>
               </li>
               <li>
-                <Link to="dashboard/student-settings.html">Settings</Link>
+                <Link to="/dashboard/student-settings">Settings</Link>
               </li>
             </ul>
           </li>

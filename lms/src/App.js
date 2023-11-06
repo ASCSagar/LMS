@@ -25,6 +25,15 @@ import InstructorSettings from "./components/Dashboard/Instructor/Settings";
 import CourseDetails from "./components/Courses/CourseDetails";
 import InstructorDetails from "./components/Dashboard/Instructor/InstructorDetails";
 import CreateCourse from "./components/Courses/CreateCourse";
+import StudentDashboard from "./components/Dashboard/Student/Dashboard";
+import StudentProfile from "./components/Dashboard/Student/Profile";
+import StudentMessage from "./components/Dashboard/Student/Message";
+import StudentECourses from "./components/Dashboard/Student/Ecourses";
+import StudentWhishlist from "./components/Dashboard/Student/Ecourses";
+import StudentReviews from "./components/Dashboard/Student/Review";
+import StudentQuiz from "./components/Dashboard/Student/Quiz";
+import StudentAssignments from "./components/Dashboard/Student/Assignments";
+import StudentSettings from "./components/Dashboard/Student/Settings";
 
 function App() {
   return (
@@ -88,6 +97,15 @@ function App() {
         <Route path="/dashboard/admin-review" element={<AdminReview />} />
         <Route path="/dashboard/admin-quiz" element={<AdminQuiz />} />
         <Route path="/dashboard/admin-settings" element={<AdminSettings />} />
+        <Route path="/dashboard/student-dashboard" element={<StudentDashboard />} />
+        <Route path="/dashboard/student-profile" element={<StudentProfile />} />
+        <Route path="/dashboard/student-message" element={<StudentMessage />} />
+        <Route path="/dashboard/student-enrolled-courses" element={<StudentECourses />} />
+        <Route path="/dashboard/student-wishlist" element={<StudentWhishlist />} />
+        <Route path="/dashboard/student-reviews" element={<StudentReviews />} />
+        <Route path="/dashboard/student-my-quiz-attempts" element={<StudentQuiz />} />
+        <Route path="/dashboard/student-assignments" element={<StudentAssignments />} />
+        <Route path="/dashboard/student-settings" element={<StudentSettings />} />
       </Routes>
     </Router>
   );
