@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DarkNight from "../DarkNight";
 import TopBar from "../Topbar";
 import Navbar from "../Navbar";
@@ -34,7 +35,7 @@ const CreateCourse = () => {
                     <div className="breadcrumb__inner">
                       <ul>
                         <li>
-                          <a href="index.html">Home</a>
+                          <Link to="/">Home</Link>
                         </li>
                         <li>Create Course</li>
                       </ul>
@@ -267,9 +268,9 @@ const CreateCourse = () => {
                                 </div>
                                 <div className="col-xl-12 col-lg-12 col-md-12 col-12">
                                   <div className="dashboard__form__button create__course__margin">
-                                    <a className="default__button" href=" ">
+                                    <Link className="default__button" to=" ">
                                       Update Info
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -322,9 +323,9 @@ const CreateCourse = () => {
                                 </div>
                                 <small>
                                   Example:{" "}
-                                  <a href="https://www.youtube.com/watch?v=yourvideoid">
+                                  <Link to="https://www.youtube.com/watch?v=yourvideoid">
                                     https://www.youtube.com/watch?v=yourvideoid
-                                  </a>
+                                  </Link>
                                 </small>
                               </div>
                             </div>
@@ -352,9 +353,9 @@ const CreateCourse = () => {
                         >
                           <div className="accordion-body">
                             <div className="create__course__button">
-                              <a className="default__button" href=" ">
+                              <Link className="default__button" to=" ">
                                 Add New Topic
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -504,9 +505,9 @@ const CreateCourse = () => {
                               </div>
                               <div className="col-xl-12">
                                 <div className="dashboard__form__button">
-                                  <a className="default__button" href=" ">
+                                  <Link className="default__button" to=" ">
                                     Update Info
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -591,12 +592,12 @@ const CreateCourse = () => {
                   <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-6 col-12">
                       <div className="create__course__bottom__button">
-                        <a href=" ">Preview</a>
+                        <Link to=" ">Preview</Link>
                       </div>
                     </div>
                     <div className="col-xl-8 col-lg-8 col-md-6 col-12">
                       <div className="create__course__bottom__button">
-                        <a href=" ">Create Course</a>
+                        <Link to=" ">Create Course</Link>
                       </div>
                     </div>
                   </div>

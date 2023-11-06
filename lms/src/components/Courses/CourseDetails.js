@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DarkNight from "../DarkNight";
 import TopBar from "../Topbar";
 import Navbar from "../Navbar";
@@ -25,7 +26,6 @@ import blogDetail4 from '../../img/blog-details/blog-details__4.png';
 import blogDetail6 from '../../img/blog-details/blog-details__6.png';
 import blogDetail7 from '../../img/blog-details/blog-details__7.png';
 import blogDetail8 from '../../img/blog-details/blog-details__8.png';
-import { Link } from "react-router-dom";
 
 const CourseDetails = () => {
   return (
@@ -95,13 +95,13 @@ const CourseDetails = () => {
                     <div className="registerarea__content course__details__video">
                       <div className="registerarea__video">
                         <div className="video__pop__btn">
-                          <a
+                          <Link
                             className="video-btn"
-                            href="https://www.youtube.com/watch?v=vHdclsdkp28"
+                            to="https://www.youtube.com/watch?v=vHdclsdkp28"
                           >
                             {" "}
                             <img src={video} alt="" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -109,10 +109,10 @@ const CourseDetails = () => {
                   <div className="blog__details__content__wraper">
                     <div className="course__button__wraper" data-aos="fade-up">
                       <div className="course__button">
-                        <a href=" ">Featured</a>
-                        <a className="course__2" href=" ">
+                        <Link to=" ">Featured</Link>
+                        <Link className="course__2" to=" ">
                           Ux Design
-                        </a>
+                        </Link>
                       </div>
                       <div className="course__date">
                         <p>
@@ -308,12 +308,12 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         22 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span className="question">
                                           <i className="icofont-eye"></i>{" "}
                                           Preview
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -331,12 +331,12 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         05 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span className="question">
                                           <i className="icofont-eye"></i>{" "}
                                           Preview
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -354,11 +354,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         10 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -376,11 +376,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         15 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -398,11 +398,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         08 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -457,11 +457,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         22 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -479,11 +479,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         05 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -501,11 +501,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         10 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -523,11 +523,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         15 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -545,11 +545,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         08 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -607,11 +607,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         22 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -629,11 +629,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         05 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -651,11 +651,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         10 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -673,11 +673,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         15 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -695,11 +695,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         08 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -754,11 +754,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         22 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -776,11 +776,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         05 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -798,11 +798,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         10 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -820,11 +820,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         15 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -842,11 +842,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         08 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -901,11 +901,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         22 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -923,11 +923,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         05 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -945,11 +945,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         10 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -967,11 +967,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         15 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -989,11 +989,11 @@ const CourseDetails = () => {
                                         <i className="icofont-clock-time"></i>{" "}
                                         08 minutes
                                       </span>
-                                      <a href="lesson.html">
+                                      <Link to="lesson.html">
                                         <span>
                                           <i className="icofont-lock"></i>
                                         </span>
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="scc__wrap">
@@ -1172,7 +1172,7 @@ const CourseDetails = () => {
                                 </div>
                                 <div className="property__comment__comment">
                                   <h6>
-                                    <a href=" ">Adam Smit</a>
+                                    <Link to=" ">Adam Smit</Link>
                                   </h6>
                                   <div className="property__sidebar__icon">
                                     <ul>
@@ -1212,7 +1212,7 @@ const CourseDetails = () => {
                                 </div>
                                 <div className="property__comment__comment">
                                   <h6>
-                                    <a href=" ">Adam Smit</a>
+                                    <Link to=" ">Adam Smit</Link>
                                   </h6>
                                   <div className="property__sidebar__icon">
                                     <ul>
@@ -1252,7 +1252,7 @@ const CourseDetails = () => {
                                 </div>
                                 <div className="property__comment__comment">
                                   <h6>
-                                    <a href=" ">Adam Smit</a>
+                                    <Link to=" ">Adam Smit</Link>
                                   </h6>
                                   <div className="property__sidebar__icon">
                                     <ul>
@@ -1357,7 +1357,7 @@ const CourseDetails = () => {
                               <div className="tab__instructor__inner">
                                 <div className="blogsidebar__name__2">
                                   <h5>
-                                    <a href=" "> Rosalina D. Willaim</a>
+                                    <Link to=" "> Rosalina D. Willaim</Link>
                                   </h5>
                                   <p>Blogger/Photographer</p>
                                 </div>
@@ -1373,24 +1373,24 @@ const CourseDetails = () => {
                                 <div className="blogsidbar__icon__2">
                                   <ul>
                                     <li>
-                                      <a href=" ">
+                                      <Link to=" ">
                                         <i className="icofont-facebook"></i>
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a href=" ">
+                                      <Link to=" ">
                                         <i className="icofont-youtube-play"></i>
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a href=" ">
+                                      <Link to=" ">
                                         <i className="icofont-instagram"></i>
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a href=" ">
+                                      <Link to=" ">
                                         <i className="icofont-twitter"></i>
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </div>
@@ -1448,34 +1448,34 @@ const CourseDetails = () => {
                       <ul>
                         <li className="heading__tag">Tag</li>
                         <li>
-                          <a href=" ">Business</a>
+                          <Link to=" ">Business</Link>
                         </li>
                         <li>
-                          <a href=" ">Design</a>
+                          <Link to=" ">Design</Link>
                         </li>
                         <li>
-                          <a href=" ">apps</a>
+                          <Link to=" ">apps</Link>
                         </li>
                         <li>
-                          <a href=" ">data</a>
+                          <Link to=" ">data</Link>
                         </li>
                       </ul>
                       <ul className="share__list">
                         <li className="heading__tag">Share</li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <i className="icofont-twitter"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <i className="icofont-facebook"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <i className="icofont-instagram"></i>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1503,9 +1503,9 @@ const CourseDetails = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -1570,9 +1570,9 @@ const CourseDetails = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -1590,9 +1590,9 @@ const CourseDetails = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href=" ">
+                                  <Link to=" ">
                                     Nidnies course to under stand about softwere
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price green__color">
@@ -1635,9 +1635,9 @@ const CourseDetails = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -1702,9 +1702,9 @@ const CourseDetails = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -1722,9 +1722,9 @@ const CourseDetails = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href=" ">
+                                  <Link to=" ">
                                     Nidnies course to under stand about softwere
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price green__color">
@@ -1777,7 +1777,7 @@ const CourseDetails = () => {
                         <div className="author__content">
                           <div className="author__name">
                             <h6>
-                              <a href=" ">Rohan De Spond</a>
+                              <Link to=" ">Rohan De Spond</Link>
                             </h6>
                             <p>25 january 2023</p>
                           </div>
@@ -1820,7 +1820,7 @@ const CourseDetails = () => {
                         <div className="author__content">
                           <div className="author__name">
                             <h6>
-                              <a href=" ">Rohan De Spond</a>
+                              <Link to=" ">Rohan De Spond</Link>
                             </h6>
                             <p>25 january 2023</p>
                           </div>
@@ -1863,7 +1863,7 @@ const CourseDetails = () => {
                         <div className="author__content">
                           <div className="author__name">
                             <h6>
-                              <a href=" ">Rohan De Spond</a>
+                              <Link to=" ">Rohan De Spond</Link>
                             </h6>
                             <p>25 january 2023</p>
                           </div>
@@ -1906,7 +1906,7 @@ const CourseDetails = () => {
                         <div className="author__content">
                           <div className="author__name">
                             <h6>
-                              <a href=" ">Rohan De Spond</a>
+                              <Link to=" ">Rohan De Spond</Link>
                             </h6>
                             <p>25 january 2023</p>
                           </div>
@@ -1986,9 +1986,9 @@ const CourseDetails = () => {
                       </div>
                     </div>
                     <div className="blog__details__button" data-aos="fade-up">
-                      <a className="default__button" href=" ">
+                      <Link className="default__button" to=" ">
                         Post a Comment
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -2003,13 +2003,13 @@ const CourseDetails = () => {
                         <div className="registerarea__content course__details__video">
                           <div className="registerarea__video">
                             <div className="video__pop__btn">
-                              <a
+                              <Link
                                 className="video-btn"
-                                href="https://www.youtube.com/watch?v=vHdclsdkp28"
+                                to="https://www.youtube.com/watch?v=vHdclsdkp28"
                               >
                                 {" "}
                                 <img src={video} alt="" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -2019,19 +2019,19 @@ const CourseDetails = () => {
                           $32.00 <del>/ $67.00</del>
                         </div>
                         <div className="event__Price__button">
-                          <a href=" ">68% OFF</a>
+                          <Link to=" ">68% OFF</Link>
                         </div>
                       </div>
                       <div className="course__summery__button">
-                        <a className="default__button" href=" ">
+                        <Link className="default__button" to=" ">
                           Add To Cart
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="default__button default__button--2"
-                          href=" "
+                          to=" "
                         >
                           Buy Now
-                        </a>
+                        </Link>
                         <span>
                           <i className="icofont-ui-rotation"></i>
                           45-Days Money-Back Guarantee
@@ -2099,12 +2099,12 @@ const CourseDetails = () => {
                       </div>
                       <div className="course__summery__button">
                         <p>More inquery about course.</p>
-                        <a
+                        <Link
                           className="default__button default__button--3"
-                          href="tel:+4733378901"
+                          to="tel:+4733378901"
                         >
                           <i className="icofont-phone"></i> +47 333 78 901
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div
@@ -2115,29 +2115,29 @@ const CourseDetails = () => {
                       <div className="follow__icon">
                         <ul>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-facebook"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-youtube-play"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-instagram"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-twitter"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-instagram"></i>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -2158,7 +2158,7 @@ const CourseDetails = () => {
                           <div className="course__details__populer__content">
                             <span>$32,000</span>
                             <h6>
-                              <a href=" ">Making Music with Other People</a>
+                              <Link to=" ">Making Music with Other People</Link>
                             </h6>
                           </div>
                         </li>
@@ -2172,7 +2172,7 @@ const CourseDetails = () => {
                           <div className="course__details__populer__content">
                             <span>$32,000</span>
                             <h6>
-                              <a href=" ">Making Music with Other People</a>
+                              <Link to=" ">Making Music with Other People</Link>
                             </h6>
                           </div>
                         </li>
@@ -2186,7 +2186,7 @@ const CourseDetails = () => {
                           <div className="course__details__populer__content">
                             <span>$32,000</span>
                             <h6>
-                              <a href=" ">Making Music with Other People</a>
+                              <Link to=" ">Making Music with Other People</Link>
                             </h6>
                           </div>
                         </li>
@@ -2201,9 +2201,9 @@ const CourseDetails = () => {
                         <input type="text" placeholder="Enter name*" />
                         <input type="text" placeholder="Enter your mail*" />
                         <input type="text" placeholder="Massage*" />
-                        <a className="default__button" href="blog-details.html">
+                        <Link className="default__button" to="blog-details.html">
                           SEND MASSAGE
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div
@@ -2214,34 +2214,34 @@ const CourseDetails = () => {
                       <div className="populer__tag__list">
                         <ul>
                           <li>
-                            <a href="blog-details.html">Business</a>
+                            <Link to="blog-details.html">Business</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">Design</a>
+                            <Link to="blog-details.html">Design</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">apps</a>
+                            <Link to="blog-details.html">apps</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">landing page</a>
+                            <Link to="blog-details.html">landing page</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">data</a>
+                            <Link to="blog-details.html">data</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">book</a>
+                            <Link to="blog-details.html">book</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">Design</a>
+                            <Link to="blog-details.html">Design</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">book</a>
+                            <Link to="blog-details.html">book</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">landing page</a>
+                            <Link to="blog-details.html">landing page</Link>
                           </li>
                           <li>
-                            <a href="blog-details.html">data</a>
+                            <Link to="blog-details.html">data</Link>
                           </li>
                         </ul>
                       </div>

@@ -49,7 +49,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -74,7 +74,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -87,7 +87,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
@@ -110,7 +110,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -135,7 +135,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -148,7 +148,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
@@ -171,7 +171,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -196,7 +196,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -209,7 +209,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
@@ -232,7 +232,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -257,7 +257,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -270,7 +270,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
@@ -293,7 +293,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -318,7 +318,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -331,7 +331,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">
@@ -354,7 +354,7 @@ const GridSection = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item filter1 filter3">
             <div className="gridarea__wraper">
               <div className="gridarea__img">
-                <Link to="course-details.html">
+                <Link to="/course-details">
                   <img src={grid1} alt="grid" />
                 </Link>
                 <div className="gridarea__small__button">
@@ -379,7 +379,7 @@ const GridSection = () => {
                 </div>
                 <div className="gridarea__heading">
                   <h3 className="gridarea_link">
-                    <Link to="course-details.html">
+                    <Link to="/course-details">
                       Foundation course to understand about software
                     </Link>
                   </h3>
@@ -392,7 +392,7 @@ const GridSection = () => {
                   </span>
                 </div>
                 <div className="gridarea__bottom">
-                  <Link to="instructor-details.html">
+                  <Link to="/instructor-details">
                     <div className="gridarea__small__img">
                       <img src={grid1} alt="grid" />
                       <div className="gridarea__small__content">

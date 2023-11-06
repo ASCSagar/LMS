@@ -96,7 +96,7 @@ const DashboardIndex = () => {
             </ul>
           </li>
           <li>
-            <Link to="dashboard/student-dashboard.html">
+            <Link>
               Student <i className="icofont-rounded-right"></i>
             </Link>
             <ul className="headerarea__submenu--third">

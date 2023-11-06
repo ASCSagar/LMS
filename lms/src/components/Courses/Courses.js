@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import DarkNight from "../DarkNight";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
@@ -17,7 +19,7 @@ import gridImg4Small from "../../img/grid/grid_small_4.jpg";
 import gridImg5 from "../../img/grid/grid_5.png";
 import gridImg5Small from "../../img/grid/grid_small_5.jpg";
 import gridImg6 from "../../img/grid/grid_6.png";
-import { Link } from "react-router-dom";
+
 
 const Courses = () => {
   return (
@@ -90,24 +92,24 @@ const Courses = () => {
                         role="tablist"
                       >
                         <li className="nav-item" role="presentation">
-                          <a
-                            href=" "
+                          <Link
+                            to=" "
                             className="single__tab__link active"
                             data-bs-toggle="tab"
                             data-bs-target="#projects__one"
                           >
                             <i className="icofont-layout"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item" role="presentation">
-                          <a
-                            href=" "
+                          <Link
+                            to=" "
                             className="single__tab__link"
                             data-bs-toggle="tab"
                             data-bs-target="#projects__two"
                           >
                             <i className="icofont-listine-dots"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li className="short__by__new">
                           <select
@@ -146,34 +148,34 @@ const Courses = () => {
                       <div className="course__categories__list">
                         <ul>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               Mobile Handset
                               <span>03</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               Americano Dish
                               <span>07</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               Raxila Dish nonyte
                               <span>09</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               Fresh Vegetable
                               <span>01</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href=" ">
+                            <Link to=" ">
                               Fruites
                               <span>00</span>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -186,34 +188,34 @@ const Courses = () => {
                     <div className="course__tag__list">
                       <ul>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <div className="course__check__box active "></div>
                             <span className="active">Mechanic</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <div className="course__check__box  "></div>
                             <span>English</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <div className="course__check__box  "></div>
                             <span>Computer Science</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <div className="course__check__box  "></div>
                             <span>Data & Tech</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href=" ">
+                          <Link to=" ">
                             <div className="course__check__box  "></div>
                             <span>Ux Desgin</span>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -225,19 +227,19 @@ const Courses = () => {
                     <div className="course__skill__list">
                       <ul>
                         <li>
-                          <a href=" ">All</a>
+                          <Link to=" ">All</Link>
                         </li>
                         <li>
-                          <a href=" ">Fullstack</a>
+                          <Link to=" ">Fullstack</Link>
                         </li>
                         <li>
-                          <a href=" ">English Learn</a>
+                          <Link to=" ">English Learn</Link>
                         </li>
                         <li>
-                          <a href=" ">Intermediate</a>
+                          <Link to=" ">Intermediate</Link>
                         </li>
                         <li>
-                          <a href=" ">Wordpress</a>
+                          <Link to=" ">Wordpress</Link>
                         </li>
                       </ul>
                     </div>
@@ -268,9 +270,9 @@ const Courses = () => {
                                 <div className="grid__badge">Data & Tech</div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -334,9 +336,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -354,9 +356,9 @@ const Courses = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href=" ">
+                                  <Link to=" ">
                                     Nidnies course to under stand about softwere
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price green__color">
@@ -398,9 +400,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -465,9 +467,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -532,9 +534,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -599,9 +601,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -665,9 +667,9 @@ const Courses = () => {
                                 <div className="grid__badge">Data & Tech</div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -732,9 +734,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -752,9 +754,9 @@ const Courses = () => {
                               </div>
                               <div className="gridarea__heading">
                                 <h3>
-                                  <a href=" ">
+                                  <Link to=" ">
                                     Nidnies course to under stand about softwere
-                                  </a>
+                                  </Link>
                                 </h3>
                               </div>
                               <div className="gridarea__price green__color">
@@ -796,9 +798,9 @@ const Courses = () => {
                                 </div>
                               </div>
                               <div className="gridarea__small__icon">
-                                <a href=" ">
+                                <Link to=" ">
                                   <i className="icofont-heart-alt"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className="gridarea__content">
@@ -868,9 +870,9 @@ const Courses = () => {
                             <div className="grid__badge">Data & Tech</div>
                           </div>
                           <div className="gridarea__small__icon">
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-heart-alt"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="gridarea__content">
@@ -936,9 +938,9 @@ const Courses = () => {
                             </div>
                           </div>
                           <div className="gridarea__small__icon">
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-heart-alt"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="gridarea__content">
@@ -1005,9 +1007,9 @@ const Courses = () => {
                             </div>
                           </div>
                           <div className="gridarea__small__icon">
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-heart-alt"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="gridarea__content">
@@ -1075,9 +1077,9 @@ const Courses = () => {
                             </div>
                           </div>
                           <div className="gridarea__small__icon">
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-heart-alt"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="gridarea__content">
@@ -1146,9 +1148,9 @@ const Courses = () => {
                             </div>
                           </div>
                           <div className="gridarea__small__icon">
-                            <a href=" ">
+                            <Link to=" ">
                               <i className="icofont-heart-alt"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="gridarea__content">
@@ -1206,25 +1208,25 @@ const Courses = () => {
                   <div className="main__pagination__wrapper" data-aos="fade-up">
                     <ul className="main__page__pagination">
                       <li>
-                        <a className="disable" href=" ">
+                        <Link className="disable" to=" ">
                           <i className="icofont-double-left"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="active" href=" ">
+                        <Link className="active" to=" ">
                           1
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href=" ">2</a>
+                        <Link to=" ">2</Link>
                       </li>
                       <li>
-                        <a href=" ">3</a>
+                        <Link to=" ">3</Link>
                       </li>
                       <li>
-                        <a href=" ">
+                        <Link to=" ">
                           <i className="icofont-double-right"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
