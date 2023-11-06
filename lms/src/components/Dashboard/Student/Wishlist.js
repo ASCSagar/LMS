@@ -8,7 +8,7 @@ import DSNavBar from "./DSNavbar.js/DSNavbar";
 import grid2 from "../../../img/grid/grid_2.png";
 import grid3 from "../../../img/grid/grid_3.png";
 import grids2 from "../../../img/grid/grid_small_2.jpg";
-import grids3 from "../../../img/grid/grid_small_3.png";
+import grids3 from "../../../img/grid/grid_small_3.jpg";
 
 const Wishlist = () => {
   return (
@@ -35,7 +35,7 @@ const Wishlist = () => {
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link to="../Student/Dashboard">
+                            <Link to="/dashboard/student-dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

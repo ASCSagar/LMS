@@ -296,7 +296,7 @@ const Dashboard = () => {
                     <div className="dashboard__content__wraper">
                       <div className="dashboard__section__title">
                         <h4>Feedbacks</h4>
-                        <Link to="../course.html">See More...</Link>
+                        <Link to="/courses">See More...</Link>
                       </div>
                       <div className="row">
                         <div className="col-xl-12">

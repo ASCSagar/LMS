@@ -32,7 +32,7 @@ const Review = () => {
                       <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link to="../Student/Dashboard">
+                            <Link to="/dashboard/student-dashboard">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

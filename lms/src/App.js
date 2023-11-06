@@ -29,7 +29,7 @@ import StudentDashboard from "./components/Dashboard/Student/Dashboard";
 import StudentProfile from "./components/Dashboard/Student/Profile";
 import StudentMessage from "./components/Dashboard/Student/Message";
 import StudentECourses from "./components/Dashboard/Student/Ecourses";
-import StudentWhishlist from "./components/Dashboard/Student/Ecourses";
+import StudentWishlist from "./components/Dashboard/Student/Wishlist";
 import StudentReviews from "./components/Dashboard/Student/Review";
 import StudentQuiz from "./components/Dashboard/Student/Quiz";
 import StudentAssignments from "./components/Dashboard/Student/Assignments";
@@ -101,7 +101,7 @@ function App() {
         <Route path="/dashboard/student-profile" element={<StudentProfile />} />
         <Route path="/dashboard/student-message" element={<StudentMessage />} />
         <Route path="/dashboard/student-enrolled-courses" element={<StudentECourses />} />
-        <Route path="/dashboard/student-wishlist" element={<StudentWhishlist />} />
+        <Route path="/dashboard/student-wishlist" element={<StudentWishlist />} />
         <Route path="/dashboard/student-reviews" element={<StudentReviews />} />
         <Route path="/dashboard/student-my-quiz-attempts" element={<StudentQuiz />} />
         <Route path="/dashboard/student-assignments" element={<StudentAssignments />} />
