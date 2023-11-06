@@ -577,76 +577,76 @@ var swiper = new Swiper(".modal__gallery", {
 
 
 //line chart
-  function lineChart() {
-    const ctx = document.getElementById('lineChart');
-    if (!ctx) return;
+  // function lineChart() {
+  //   const ctx = document.getElementById('lineChart');
+  //   if (!ctx) return;
   
-    const myChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: [
-          'Jan', 'Feb', 'Marc', 'April', 'May', 'Jun', 'July', 'Agust', 'Sept', 'Oct', 'Now', 'Dec',
-        ],
-        datasets: [{
-          label: '#',
-          data: [148, 100, 205, 110, 165, 145, 180, 156, 148, 220, 180, 245],
-          tension: 0.4,
-          backgroundColor: '#5F2DED',
-          borderColor: '#5F2DED',
-          borderWidth: 2,
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            display: false,
-          },
-        },
-        scales: {
-          y: {
-            min: 0,
-            max: 300,
-            ticks: {
-              stepSize: 50
-            }
-          }
-        },
-      },
-    });
-  }
+  //   const myChart = new Chart(ctx, {
+  //     type: 'line',
+  //     data: {
+  //       labels: [
+  //         'Jan', 'Feb', 'Marc', 'April', 'May', 'Jun', 'July', 'Agust', 'Sept', 'Oct', 'Now', 'Dec',
+  //       ],
+  //       datasets: [{
+  //         label: '#',
+  //         data: [148, 100, 205, 110, 165, 145, 180, 156, 148, 220, 180, 245],
+  //         tension: 0.4,
+  //         backgroundColor: '#5F2DED',
+  //         borderColor: '#5F2DED',
+  //         borderWidth: 2,
+  //       }]
+  //     },
+  //     options: {
+  //       responsive: true,
+  //       plugins: {
+  //         legend: {
+  //           display: false,
+  //         },
+  //       },
+  //       scales: {
+  //         y: {
+  //           min: 0,
+  //           max: 300,
+  //           ticks: {
+  //             stepSize: 50
+  //           }
+  //         }
+  //       },
+  //     },
+  //   });
+  // }
 
 
 
 //Pie Chart
-  function pieChart() {
-    const ctx = document.getElementById('pieChart');
-    if (!ctx) return;
+  // function pieChart() {
+  //   const ctx = document.getElementById('pieChart');
+  //   if (!ctx) return;
   
-    const myChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: [ 'Direct', 'Referal', 'Organic', ],
-        datasets: [{
-          label: '#',
-          data: [40, 28, 32],
-        }]
-      },
-      options: {
-        cutout: '75%',
-        plugins: {
-          legend: {
-            position: 'left',
-          }
-        },
-        elements: {
-          arc: {
-            backgroundColor: '#5F2DED',
-            hoverBackgroundColor: '#5F2DED'
-          }
-        }
-      },
-    })
+  //   const myChart = new Chart(ctx, {
+  //     type: 'pie',
+  //     data: {
+  //       labels: [ 'Direct', 'Referal', 'Organic', ],
+  //       datasets: [{
+  //         label: '#',
+  //         data: [40, 28, 32],
+  //       }]
+  //     },
+  //     options: {
+  //       cutout: '75%',
+  //       plugins: {
+  //         legend: {
+  //           position: 'left',
+  //         }
+  //       },
+  //       elements: {
+  //         arc: {
+  //           backgroundColor: '#5F2DED',
+  //           hoverBackgroundColor: '#5F2DED'
+  //         }
+  //       }
+  //     },
+  //   })
   
   
     const getOrCreateLegendList = (chart, id) => {
