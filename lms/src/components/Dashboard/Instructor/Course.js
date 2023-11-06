@@ -23,17 +23,17 @@ const InstructorCourse = () => {
         <div className="theme__shadow__circle"></div>
         <div className="theme__shadow__circle shadow__right"></div>
         <div className="main_wrapper overflow-hidden">
-          <div class="dashboardarea sp_bottom_100">
+          <div className="dashboardarea sp_bottom_100">
             <DINavBar />
-            <div class="dashboard">
-              <div class="container-fluid full__width__padding">
-                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-12">
-                    <div class="dashboard__inner">
-                      <div class="dashboard__nav__title">
+            <div className="dashboard">
+              <div className="container-fluid full__width__padding">
+                <div className="row">
+                  <div className="col-xl-3 col-lg-3 col-md-12">
+                    <div className="dashboard__inner">
+                      <div className="dashboard__nav__title">
                         <h6>Michle Obama</h6>
                       </div>
-                      <div class="dashboard__nav">
+                      <div className="dashboard__nav">
                         <ul>
                           <li>
                             <Link to="/dashboard">
@@ -44,10 +44,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-home"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-home"
                               >
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -64,10 +64,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-user"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-user"
                               >
                                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                                 <circle cx="12" cy="7" r="4"></circle>
@@ -84,17 +84,17 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-book-open"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-book-open"
                               >
                                 <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
                                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                               </svg>
                               Message
                             </Link>
-                            <span class="dashboard__label">12</span>
+                            <span className="dashboard__label">12</span>
                           </li>
                           <li>
                             <Link to="/dashboard/instructor-wishlist">
@@ -105,10 +105,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-bookmark"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-bookmark"
                               >
                                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
                               </svg>
@@ -124,10 +124,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-star"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-star"
                               >
                                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                               </svg>
@@ -143,10 +143,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-help-circle"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-help-circle"
                               >
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
@@ -164,10 +164,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-shopping-bag"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-shopping-bag"
                               >
                                 <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
                                 <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -178,13 +178,13 @@ const InstructorCourse = () => {
                           </li>
                         </ul>
                       </div>
-                      <div class="dashboard__nav__title mt-40">
+                      <div className="dashboard__nav__title mt-40">
                         <h6>Instructor</h6>
                       </div>
-                      <div class="dashboard__nav">
+                      <div className="dashboard__nav">
                         <ul>
                           <li>
-                            <Link class="active" to="dashboard/instructor-course">
+                            <Link className="active" to="dashboard/instructor-course">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -192,10 +192,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-monitor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-monitor"
                               >
                                 <rect
                                   x="2"
@@ -220,10 +220,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-volume-1"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-volume-1"
                               >
                                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -240,10 +240,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-message-square"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-message-square"
                               >
                                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                               </svg>
@@ -259,10 +259,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-volume-1"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-volume-1"
                               >
                                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -272,11 +272,11 @@ const InstructorCourse = () => {
                           </li>
                         </ul>
                       </div>
-                      <div class="dashboard__nav__title mt-40">
+                      <div className="dashboard__nav__title mt-40">
                         <h6>user</h6>
                       </div>
 
-                      <div class="dashboard__nav">
+                      <div className="dashboard__nav">
                         <ul>
                           <li>
                            <Link to="/dashboard/instructor-settings">
@@ -287,10 +287,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-settings"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-settings"
                               >
                                 <circle cx="12" cy="12" r="3"></circle>
                                 <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
@@ -307,10 +307,10 @@ const InstructorCourse = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="feather feather-volume-1"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="feather feather-volume-1"
                               >
                                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
                                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
@@ -322,24 +322,24 @@ const InstructorCourse = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-9 col-lg-9 col-md-12">
-                    <div class="dashboard__content__wraper">
-                      <div class="dashboard__section__title">
+                  <div className="col-xl-9 col-lg-9 col-md-12">
+                    <div className="dashboard__content__wraper">
+                      <div className="dashboard__section__title">
                         <h4>Courses</h4>
                       </div>
-                      <div class="row">
+                      <div className="row">
                         <div
-                          class="col-xl-12 aos-init aos-animate"
+                          className="col-xl-12 aos-init aos-animate"
                           data-aos="fade-up"
                         >
                           <ul
-                            class="nav  about__button__wrap dashboard__button__wrap"
+                            className="nav  about__button__wrap dashboard__button__wrap"
                             id="myTab"
                             role="tablist"
                           >
-                            <li class="nav-item" role="presentation">
+                            <li className="nav-item" role="presentation">
                               <button
-                                class="single__tab__link active"
+                                className="single__tab__link active"
                                 data-bs-toggle="tab"
                                 data-bs-target="#projects__one"
                                 type="button"
@@ -349,9 +349,9 @@ const InstructorCourse = () => {
                                 Publish
                               </button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li className="nav-item" role="presentation">
                               <button
-                                class="single__tab__link"
+                                className="single__tab__link"
                                 data-bs-toggle="tab"
                                 data-bs-target="#projects__two"
                                 type="button"
@@ -362,9 +362,9 @@ const InstructorCourse = () => {
                                 Pending
                               </button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li className="nav-item" role="presentation">
                               <button
-                                class="single__tab__link"
+                                className="single__tab__link"
                                 data-bs-toggle="tab"
                                 data-bs-target="#projects__three"
                                 type="button"
@@ -379,49 +379,49 @@ const InstructorCourse = () => {
                         </div>
 
                         <div
-                          class="tab-content tab__content__wrapper aos-init aos-animate"
+                          className="tab-content tab__content__wrapper aos-init aos-animate"
                           id="myTabContent"
                           data-aos="fade-up"
                         >
                           <div
-                            class="tab-pane fade active show"
+                            className="tab-pane fade active show"
                             id="projects__one"
                             role="tabpanel"
                             aria-labelledby="projects__one"
                           >
-                            <div class="row">
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                            <div className="row">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <img
                                       src={grid2}
                                       alt="grid"
                                     />
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge blue__color">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge blue__color">
                                         Mechanical
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 29
+                                          <i className="icofont-book-alt"></i> 29
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 2
+                                          <i className="icofont-clock-time"></i> 2
                                           hr 10 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <a href=" ">
                                           Nidnies course to under stand about
@@ -429,68 +429,68 @@ const InstructorCourse = () => {
                                         </a>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price green__color">
+                                    <div className="gridarea__price green__color">
                                       $32.00<del>/$67.00</del>
                                       <span>.Free</span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid2Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <Link to="/course-details">
                                       <img
                                         src={grid3}
                                         alt="grid"
                                       />
                                     </Link>
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge pink__color">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge pink__color">
                                         Development
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 25
+                                          <i className="icofont-book-alt"></i> 25
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 1
+                                          <i className="icofont-clock-time"></i> 1
                                           hr 40 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <Link to="/course-details">
                                           Minws course to under stand about
@@ -498,69 +498,69 @@ const InstructorCourse = () => {
                                         </Link>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price">
+                                    <div className="gridarea__price">
                                       $40.00 <del>/ $67.00</del>
                                       <span>
                                         {" "}
-                                        <del class="del__2">Free</del>
+                                        <del className="del__2">Free</del>
                                       </span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid3Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <Link to="/course-details">
                                       <img
                                         src={grid5}
                                         alt="grid"
                                       />
                                     </Link>
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge">New</div>
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge">New</div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 25
+                                          <i className="icofont-book-alt"></i> 25
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 1
+                                          <i className="icofont-clock-time"></i> 1
                                           hr 40 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <Link to="/course-details">
                                           Minws course to under stand about
@@ -568,31 +568,31 @@ const InstructorCourse = () => {
                                         </Link>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price">
+                                    <div className="gridarea__price">
                                       $40.00 <del>/ $67.00</del>
                                       <span>
                                         {" "}
-                                        <del class="del__2">Free</del>
+                                        <del className="del__2">Free</del>
                                       </span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid3Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
@@ -603,46 +603,46 @@ const InstructorCourse = () => {
                           </div>
 
                           <div
-                            class="tab-pane fade"
+                            className="tab-pane fade"
                             id="projects__two"
                             role="tabpanel"
                             aria-labelledby="projects__two"
                           >
-                            <div class="row">
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                            <div className="row">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <Link to="/course-details">
                                       <img
                                         src={grid5}
                                         alt="grid"
                                       />
                                     </Link>
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge">
                                         Data &amp; Tech
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 23
+                                          <i className="icofont-book-alt"></i> 23
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 1
+                                          <i className="icofont-clock-time"></i> 1
                                           hr 30 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <Link to="/course-details">
                                           Foundation course to under stand about
@@ -650,69 +650,69 @@ const InstructorCourse = () => {
                                         </Link>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price">
+                                    <div className="gridarea__price">
                                       $32.00 <del>/ $67.00</del>
                                       <span>
                                         {" "}
-                                        <del class="del__2">Free</del>
+                                        <del className="del__2">Free</del>
                                       </span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid1Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <img
                                       src={grid5}
                                       alt="grid"
                                     />
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge blue__color">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge blue__color">
                                         Mechanical
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 29
+                                          <i className="icofont-book-alt"></i> 29
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 2
+                                          <i className="icofont-clock-time"></i> 2
                                           hr 10 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <a href=" ">
                                           Nidnies course to under stand about
@@ -720,28 +720,28 @@ const InstructorCourse = () => {
                                         </a>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price green__color">
+                                    <div className="gridarea__price green__color">
                                       $32.00<del>/$67.00</del>
                                       <span>.Free</span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid2Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
@@ -751,46 +751,46 @@ const InstructorCourse = () => {
                             </div>
                           </div>
                           <div
-                            class="tab-pane fade"
+                            className="tab-pane fade"
                             id="projects__three"
                             role="tabpanel"
                             aria-labelledby="projects__three"
                           >
-                            <div class="row">
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                            <div className="row">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <Link to="/course-details">
                                       <img
                                         src={grid1}
                                         alt="grid"
                                       />
                                     </Link>
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge">
                                         Data &amp; Tech
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 23
+                                          <i className="icofont-book-alt"></i> 23
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 1
+                                          <i className="icofont-clock-time"></i> 1
                                           hr 30 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <Link to="/course-details">
                                           Foundation course to under stand about
@@ -798,69 +798,69 @@ const InstructorCourse = () => {
                                         </Link>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price">
+                                    <div className="gridarea__price">
                                       $32.00 <del>/ $67.00</del>
                                       <span>
                                         {" "}
-                                        <del class="del__2">Free</del>
+                                        <del className="del__2">Free</del>
                                       </span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid1Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Micle Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="gridarea__wraper">
-                                  <div class="gridarea__img">
+                              <div className="col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="gridarea__wraper">
+                                  <div className="gridarea__img">
                                     <img
                                       src={grid2}
                                       alt="grid"
                                     />
-                                    <div class="gridarea__small__button">
-                                      <div class="grid__badge blue__color">
+                                    <div className="gridarea__small__button">
+                                      <div className="grid__badge blue__color">
                                         Mechanical
                                       </div>
                                     </div>
-                                    <div class="gridarea__small__icon">
+                                    <div className="gridarea__small__icon">
                                       <a href=" ">
-                                        <i class="icofont-heart-alt"></i>
+                                        <i className="icofont-heart-alt"></i>
                                       </a>
                                     </div>
                                   </div>
-                                  <div class="gridarea__content">
-                                    <div class="gridarea__list">
+                                  <div className="gridarea__content">
+                                    <div className="gridarea__list">
                                       <ul>
                                         <li>
-                                          <i class="icofont-book-alt"></i> 29
+                                          <i className="icofont-book-alt"></i> 29
                                           Lesson
                                         </li>
                                         <li>
-                                          <i class="icofont-clock-time"></i> 2
+                                          <i className="icofont-clock-time"></i> 2
                                           hr 10 min
                                         </li>
                                       </ul>
                                     </div>
-                                    <div class="gridarea__heading">
+                                    <div className="gridarea__heading">
                                       <h3>
                                         <a href=" ">
                                           Nidnies course to under stand about
@@ -868,28 +868,28 @@ const InstructorCourse = () => {
                                         </a>
                                       </h3>
                                     </div>
-                                    <div class="gridarea__price green__color">
+                                    <div className="gridarea__price green__color">
                                       $32.00<del>/$67.00</del>
                                       <span>.Free</span>
                                     </div>
-                                    <div class="gridarea__bottom">
+                                    <div className="gridarea__bottom">
                                       <Link to="/instructor-details">
-                                        <div class="gridarea__small__img">
+                                        <div className="gridarea__small__img">
                                           <img
                                             src={grid2Small}
                                             alt="grid"
                                           />
-                                          <div class="gridarea__small__content">
+                                          <div className="gridarea__small__content">
                                             <h6>Rinis Jhon</h6>
                                           </div>
                                         </div>
                                       </Link>
-                                      <div class="gridarea__star">
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
-                                        <i class="icofont-star"></i>
+                                      <div className="gridarea__star">
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
+                                        <i className="icofont-star"></i>
                                         <span>(44)</span>
                                       </div>
                                     </div>

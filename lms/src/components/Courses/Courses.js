@@ -27,8 +27,8 @@ const Courses = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div class="theme__shadow__circle"></div>
-          <div class="theme__shadow__circle shadow__right"></div>
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="breadcrumbarea">
             <div className="container">
               <div className="row">
