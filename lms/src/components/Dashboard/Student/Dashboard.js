@@ -8,7 +8,7 @@ import DSNavBar from "./DSNavbar/DSNavbar";
 import counter1 from "../../../img/counter/counter__1.png";
 import counter2 from "../../../img/counter/counter__2.png";
 import counter3 from "../../../img/counter/counter__3.png";
-import DSSidebar from "./Sidebar/DSSidebar";
+import DSSidebar from "./DSSidebar/DSSidebar";
 
 const Dashboard = () => {
   return (

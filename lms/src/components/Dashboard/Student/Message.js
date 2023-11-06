@@ -11,7 +11,7 @@ import teacher3 from "../../../img/teacher/teacher__3.png";
 import teacher4 from "../../../img/teacher/teacher__4.png";
 import teacher5 from "../../../img/teacher/teacher__5.png";
 import teacher6 from "../../../img/teacher/teacher__6.png";
-import DSSidebar from "./Sidebar/DSSidebar";
+import DSSidebar from "./DSSidebar/DSSidebar";
 
 const Message = () => {
   return (

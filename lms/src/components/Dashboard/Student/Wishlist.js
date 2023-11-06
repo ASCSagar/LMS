@@ -9,7 +9,7 @@ import grid2 from "../../../img/grid/grid_2.png";
 import grid3 from "../../../img/grid/grid_3.png";
 import grids2 from "../../../img/grid/grid_small_2.jpg";
 import grids3 from "../../../img/grid/grid_small_3.jpg";
-import DSSidebar from "./Sidebar/DSSidebar";
+import DSSidebar from "./DSSidebar/DSSidebar";
 
 const Wishlist = () => {
   return (
