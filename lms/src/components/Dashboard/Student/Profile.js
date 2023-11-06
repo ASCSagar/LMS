@@ -14,14 +14,10 @@ const Profile = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
-
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">

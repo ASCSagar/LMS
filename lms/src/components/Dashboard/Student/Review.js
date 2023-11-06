@@ -14,11 +14,8 @@ const Review = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -279,7 +276,6 @@ const Review = () => {
                             </li>
                           </ul>
                         </div>
-
                         <div
                           className="tab-content tab__content__wrapper aos-init aos-animate"
                           id="myTabContent"
@@ -673,7 +669,6 @@ const Review = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__two"
@@ -836,7 +831,6 @@ const Review = () => {
                                           </div>
                                         </td>
                                       </tr>
-
                                       <tr className="dashboard__table__row">
                                         <th>Course: How to Web Design</th>
                                         <td>
@@ -979,7 +973,6 @@ const Review = () => {
                                           </div>
                                         </td>
                                       </tr>
-
                                       <tr>
                                         <th>Course: English</th>
                                         <td>

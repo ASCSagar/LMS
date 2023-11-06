@@ -14,11 +14,8 @@ const Settings = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -292,7 +289,6 @@ const Settings = () => {
                             </li>
                           </ul>
                         </div>
-
                         <div
                           className="tab-content tab__content__wrapper aos-init aos-animate"
                           id="myTabContent"
@@ -315,7 +311,6 @@ const Settings = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
@@ -324,7 +319,6 @@ const Settings = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
@@ -336,7 +330,6 @@ const Settings = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
@@ -348,7 +341,6 @@ const Settings = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
@@ -360,7 +352,6 @@ const Settings = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="col-xl-6">
                                     <div className="dashboard__form__wraper">
                                       <div className="dashboard__form__input">
@@ -398,7 +389,6 @@ const Settings = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__two"
@@ -417,7 +407,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
@@ -429,7 +418,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
@@ -450,7 +438,6 @@ const Settings = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__three"
@@ -485,7 +472,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
@@ -513,7 +499,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
@@ -548,7 +533,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">
@@ -595,7 +579,6 @@ const Settings = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-12">
                                 <div className="dashboard__form__wraper">
                                   <div className="dashboard__form__input">

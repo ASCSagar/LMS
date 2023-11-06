@@ -20,11 +20,8 @@ const Message = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -243,7 +240,6 @@ const Message = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="col-xl-9 col-lg-9 col-md-12">
                     <div className="dashboard__message__content__main">
                       <div className="dashboard__message__content__main__title dashboard__message__content__main__title__2">
@@ -262,7 +258,6 @@ const Message = () => {
                                 </button>
                                 <input type="text" placeholder="Search" />
                               </div>
-
                               <div className="dashboard__meessage__contact">
                                 <ul>
                                   <li>
@@ -350,7 +345,6 @@ const Message = () => {
                                       </div>
                                     </div>
                                   </li>
-
                                   <li>
                                     <div className="dashboard__meessage__contact__wrap">
                                       <div className="dashboard__meessage__chat__img">

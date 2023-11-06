@@ -14,11 +14,8 @@ const Quiz = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -242,7 +239,6 @@ const Quiz = () => {
                       <div className="dashboard__section__title">
                         <h4>My Quiz Attempts</h4>
                       </div>
-
                       <div className="row">
                         <div className="col-xl-6 col-lg-4 col-md-4 col-12">
                           <div className="dashboard__select__heading">
@@ -380,7 +376,6 @@ const Quiz = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr className="dashboard__table__row">
                                   <th>
                                     <p>December 26, 2023</p>
@@ -448,7 +443,6 @@ const Quiz = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr>
                                   <th>
                                     <p>December 26, 2023</p>
@@ -514,7 +508,6 @@ const Quiz = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr className="dashboard__table__row">
                                   <th>
                                     <p>December 26, 2023</p>

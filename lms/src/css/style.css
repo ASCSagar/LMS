@@ -10621,6 +10621,9 @@ Error
 .loginarea__wraper form .login__button {
   margin-top: 25px;
 }
+.login__button a {
+  color: var(--whiteColor);
+}
 .loginarea__wraper form .login__button a {
   width: 100%;
 }
@@ -10671,6 +10674,10 @@ Error
 }
 .loginarea__wraper .login__social__option .login__social__btn li a {
   padding: 10px 44px;
+}
+
+.login__social__btn li a {
+  color: var(--whiteColor);
 }
 .loginarea__wraper
   .login__social__option
@@ -11970,6 +11977,7 @@ Breadcrumb Area
 }
 .dashboardarea__left__content ul li svg {
   width: 18px;
+  margin-right: 5px;
 }
 .dashboardarea__star {
   text-align: center;
@@ -13080,6 +13088,7 @@ Breadcrumb Area
 }
 .grid__course__status .default__button {
   display: block;
+  color: var(--whiteColor);
 }
 
 /*------------------------------

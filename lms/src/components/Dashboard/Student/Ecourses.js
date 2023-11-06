@@ -21,13 +21,10 @@ const Ecourses = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
-
             <div className="dashboard">
               <div className="container-fluid full__width__padding">
                 <div className="row">
@@ -299,7 +296,6 @@ const Ecourses = () => {
                             </li>
                           </ul>
                         </div>
-
                         <div
                           className="tab-content tab__content__wrapper aos-init aos-animate"
                           id="myTabContent"
@@ -366,7 +362,6 @@ const Ecourses = () => {
                                           </div>
                                         </div>
                                       </Link>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -397,7 +392,6 @@ const Ecourses = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -477,7 +471,6 @@ const Ecourses = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -557,7 +550,6 @@ const Ecourses = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -623,7 +615,6 @@ const Ecourses = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="grid__course__status populerarea__button">
                                     <div className="progress">
                                       <div
@@ -640,7 +631,6 @@ const Ecourses = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -716,7 +706,6 @@ const Ecourses = () => {
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -771,7 +760,6 @@ const Ecourses = () => {
                                           </div>
                                         </div>
                                       </Link>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -786,7 +774,6 @@ const Ecourses = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__two"
@@ -848,7 +835,6 @@ const Ecourses = () => {
                                           </div>
                                         </div>
                                       </Link>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -859,7 +845,6 @@ const Ecourses = () => {
                                       </div>
                                     </div>
                                   </div>
-
                                   <div className="grid__course__status populerarea__button">
                                     <div className="progress">
                                       <div
@@ -953,7 +938,6 @@ const Ecourses = () => {
                               </div>
                             </div>
                           </div>
-
                           <div
                             className="tab-pane fade"
                             id="projects__three"
@@ -1015,7 +999,6 @@ const Ecourses = () => {
                                           </div>
                                         </div>
                                       </Link>
-
                                       <div className="gridarea__star">
                                         <i className="icofont-star"></i>
                                         <i className="icofont-star"></i>
@@ -1039,7 +1022,6 @@ const Ecourses = () => {
                                         100% Complete
                                       </div>
                                     </div>
-
                                     <Link className="default__button" to="#">
                                       Download Certificate
                                     </Link>
@@ -1118,14 +1100,12 @@ const Ecourses = () => {
                                         100% Complete
                                       </div>
                                     </div>
-
                                     <Link className="default__button" to="#">
                                       Download Certificate
                                     </Link>
                                   </div>
                                 </div>
                               </div>
-
                               <div className="col-xl-4 col-lg-6 col-md-6 col-12">
                                 <div className="gridarea__wraper">
                                   <div className="gridarea__img">
@@ -1198,7 +1178,6 @@ const Ecourses = () => {
                                         100% Complete
                                       </div>
                                     </div>
-
                                     <Link className="default__button" to="#">
                                       Download Certificate
                                     </Link>

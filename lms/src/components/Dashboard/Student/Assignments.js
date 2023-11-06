@@ -14,11 +14,8 @@ const Assignments = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
-
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -242,7 +239,6 @@ const Assignments = () => {
                       <div className="dashboard__section__title">
                         <h4>Assignment</h4>
                       </div>
-
                       <div className="row">
                         <div className="col-xl-6 col-lg-4 col-md-4 col-12">
                           <div className="dashboard__select__heading">
@@ -324,7 +320,6 @@ const Assignments = () => {
                                   <td>
                                     <p>2</p>
                                   </td>
-
                                   <td>
                                     <div className="dashboard__button__group">
                                       <Link
@@ -351,7 +346,6 @@ const Assignments = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr className="dashboard__table__row">
                                   <th>
                                     <span>Write a the 5</span>
@@ -365,7 +359,6 @@ const Assignments = () => {
                                   <td>
                                     <p>2</p>
                                   </td>
-
                                   <td>
                                     <div className="dashboard__button__group">
                                       <Link
@@ -392,7 +385,6 @@ const Assignments = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr>
                                   <th>
                                     <span>Write a the 5</span>
@@ -406,7 +398,6 @@ const Assignments = () => {
                                   <td>
                                     <p>2</p>
                                   </td>
-
                                   <td>
                                     <div className="dashboard__button__group">
                                       <Link
@@ -433,7 +424,6 @@ const Assignments = () => {
                                     </div>
                                   </td>
                                 </tr>
-
                                 <tr className="dashboard__table__row">
                                   <th>
                                     <span>Write a the 5</span>
@@ -447,7 +437,6 @@ const Assignments = () => {
                                   <td>
                                     <p>2</p>
                                   </td>
-
                                   <td>
                                     <div className="dashboard__button__group">
                                       <Link

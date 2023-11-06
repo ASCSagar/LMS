@@ -18,10 +18,8 @@ const Wishlist = () => {
       <Navbar />
       <div className="body__wrapper">
         <div className="main_wrapper overflow-hidden">
-          <div>
-            <div className="theme__shadow__circle"></div>
-            <div className="theme__shadow__circle shadow__right"></div>
-          </div>
+          <div className="theme__shadow__circle"></div>
+          <div className="theme__shadow__circle shadow__right"></div>
           <div className="dashboardarea sp_bottom_100">
             <DSNavBar />
             <div className="dashboard">
@@ -359,7 +357,6 @@ const Wishlist = () => {
                                     </div>
                                   </div>
                                 </Link>
-
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
@@ -372,7 +369,6 @@ const Wishlist = () => {
                             </div>
                           </div>
                         </div>
-
                         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
                           <div className="gridarea__wraper">
                             <div className="gridarea__img">
@@ -426,7 +422,6 @@ const Wishlist = () => {
                                     </div>
                                   </div>
                                 </Link>
-
                                 <div className="gridarea__star">
                                   <i className="icofont-star"></i>
                                   <i className="icofont-star"></i>
