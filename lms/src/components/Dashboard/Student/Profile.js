@@ -4,7 +4,7 @@ import TopBar from "../../Topbar";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 import DSNavBar from "./DSNavbar/DSNavbar";
-import DSSidebar from "./Sidebar/DSSidebar";
+import DSSidebar from "./DSSidebar/DSSidebar";
 
 const Profile = () => {
   return (

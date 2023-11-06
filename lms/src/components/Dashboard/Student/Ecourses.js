@@ -12,7 +12,7 @@ import grid8 from "../../../img/grid/grid_8.png";
 import grids1 from "../../../img/grid/grid_small_1.jpg";
 import grids2 from "../../../img/grid/grid_small_2.jpg";
 import grids3 from "../../../img/grid/grid_small_3.jpg";
-import DSSidebar from "./Sidebar/DSSidebar";
+import DSSidebar from "./DSSidebar/DSSidebar";
 
 const Ecourses = () => {
   return (
